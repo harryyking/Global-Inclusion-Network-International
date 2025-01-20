@@ -2,15 +2,15 @@ import Link from "next/link"
 
 export default function Header() {
   return (
-    <header className="bg-base-100 shadow-md">
-      <div className="navbar container mx-auto">
+    <header className="bg-base-100">
+      <div className="navbar container mx-auto max-w-6xl">
         <div className="flex-1">
           <Link href="/" className="btn btn-ghost text-xl text-secondary">
             GINI
           </Link>
         </div>
         <div className="flex-none">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal px-4">
             <li>
               <Link href="#" className="text-primary hover:text-secondary">
                 Home
@@ -32,7 +32,7 @@ export default function Header() {
               </Link>
             </li>
           </ul>
-          <button className="btn btn-secondary ml-4">Donate</button>
+          <button className="btn btn-outline ml-4">Donate</button>
         </div>
       </div>
     </header>
