@@ -8,7 +8,7 @@ export default function Hero() {
     <div className="hero-overlay bg-opacity-60"></div>
     <div className="hero-content text-neutral-content">
       <div className="max-w-6xl">
-        <h1 className="mb-5 text-5xl font-bold leading-3">Empowering Every Child,<br /> Regardless of Ability</h1>
+        <h1 className="mb-5 text-5xl font-bold leading-normal">Empowering Every Child,<br /> Regardless of Ability</h1>
         <p className="mb-5">
         Global Inclusion Network International is dedicated to creating inclusive communities and unlocking the
         potential of children with disabilities.
