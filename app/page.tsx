@@ -1,4 +1,5 @@
 import AboutUs from "@/components/AboutUs";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import MissionVision from "@/components/MissionVision";
@@ -13,6 +14,7 @@ export default function Home() {
       <AboutUs/>
       <MissionVision/>
       <Testimonials/>
+      <Footer/>
     </div>
   );
 }
