@@ -3,27 +3,19 @@ import { ChevronLeft, ChevronRight, Calendar, Clock, MapPin } from 'lucide-react
 const events = [
   {
     title: "The Autism Conference",
-    date: "March 15, 2024",
-    time: "9:00 AM - 12:00 PM",
-    location: "GINI Community Center",
     description: "Interactive workshop focusing on early childhood development strategies and support systems.",
-    image: "https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    image: "https://utfs.io/f/cQKwx0ZpHag1thRUgz5iVBrlEPjFkzwSpOU2vfnJ8TdXoyea"
   },
   {
     title: "Annual Free Health Screening",
-    date: "April 2, 2024",
-    time: "10:00 AM - 4:00 PM",
-    location: "City Sports Complex",
+    
     description: "A day of adaptive sports and activities promoting physical fitness and teamwork.",
-    image: "https://images.pexels.com/photos/8612900/pexels-photo-8612900.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    image: "https://media.istockphoto.com/id/1129628379/photo/doctor-meet-african-child.jpg?b=1&s=612x612&w=0&k=20&c=mjYnj42AZOx4-dhpzQG8l7vZq4uyWYrOk1jWJY23hxk="
   },
   {
     title: "School Outreaches",
-    date: "March 20, 2024",
-    time: "6:30 PM - 8:00 PM",
-    location: "Virtual Meeting",
     description: "Monthly meeting for parents to share experiences and receive professional guidance.",
-    image: "https://images.pexels.com/photos/8613335/pexels-photo-8613335.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    image: "https://images.pexels.com/photos/12448839/pexels-photo-12448839.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
 
 ];
@@ -65,20 +57,6 @@ export default function EventsCarousel() {
                         {event.title}
                       </h3>
                       <p className="text-base-content/80 mb-4">{event.description}</p>
-                      <div className="space-y-2 text-base-content/70">
-                        <div className="flex items-center gap-2">
-                          <Calendar className="w-5 h-5" />
-                          <span>{event.date}</span>
-                        </div>
-                        <div className="flex items-center gap-2">
-                          <Clock className="w-5 h-5" />
-                          <span>{event.time}</span>
-                        </div>
-                        <div className="flex items-center gap-2">
-                          <MapPin className="w-5 h-5" />
-                          <span>{event.location}</span>
-                        </div>
-                      </div>
                     </div>
                   </div>
                 </div>
