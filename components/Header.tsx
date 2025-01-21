@@ -39,10 +39,14 @@ export default function Header() {
         </div>
 
         {/* Mobile Sheet */}
-        <div className={`fixed inset-y-0 left-0 w-full bg-base-100 shadow-xl transform transition-transform duration-300 ease-in-out lg:hidden ${isSheetOpen ? 'translate-x-0' : 'translate-x-full'}`}>
-          <div className="flex flex-col h-full">
+        <div
+          className={`fixed inset-0 bg-base-100 shadow-xl transform transition-transform duration-300 ease-in-out lg:hidden ${
+            isSheetOpen ? 'translate-x-0' : 'translate-x-full'
+          }`}
+        >
+          <div className="flex flex-col justify-center items-center h-full w-full">
             {/* Close Button */}
-            <div className="p-4 flex justify-end">
+            <div className="p-4 absolute top-4 right-4">
               <button
                 className="btn btn-ghost btn-circle"
                 onClick={() => setIsSheetOpen(false)}
@@ -65,8 +69,8 @@ export default function Header() {
             </div>
 
             {/* Navigation Links */}
-            <nav className="flex-grow text-center w-full px-4">
-              <ul className="menu menu-lg gap-2 ">
+            <nav className="text-center w-full px-4">
+              <ul className="menu menu-lg gap-2">
                 <li>
                   <Link
                     href="/"
@@ -105,18 +109,17 @@ export default function Header() {
                 </li>
               </ul>
               <div className="text-secondary w-full my-4 h-6"/>
-            {/* Donate Button */}
-            <div className="p-4">
-              <Link
-                href="#contact"
-                className="btn btn-secondary w-full text-white"
-                onClick={() => setIsSheetOpen(false)}
-              >
-                Donate
-              </Link>
-            </div>
+              {/* Donate Button */}
+              <div className="p-4">
+                <Link
+                  href="#contact"
+                  className="btn btn-secondary w-full text-white"
+                  onClick={() => setIsSheetOpen(false)}
+                >
+                  Donate
+                </Link>
+              </div>
             </nav>
-
           </div>
         </div>
 
