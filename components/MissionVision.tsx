@@ -21,16 +21,16 @@ export default function MissionVision() {
           {/* Left Column - Mission & Vision */}
           <div className="space-y-8 animate-fade-in-up">
             {/* Vision Card */}
-            <div className="card bg-secondary text-white shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+            <div className="card bg-secondary  shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
               <div className="card-body">
-                <h2 className="card-title text-3xl font-bold flex items-center gap-2">
+                <h2 className="card-title text-3xl text-white font-bold flex items-center gap-2">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
                   </svg>
                   Our Vision
                 </h2>
-                <p className="text-lg ">
+                <p className="text-lg text-white ">
                   To dismantle societal myths surrounding disability and establish an inclusive platform where every child
                   with a disability not only thrives but also emerges as a valuable contributor to society.
                 </p>
@@ -38,15 +38,15 @@ export default function MissionVision() {
             </div>
 
             {/* Mission Card */}
-            <div className="card bg-primary shadow-xl text-white transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+            <div className="card bg-primary shadow-xl  transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
               <div className="card-body">
-                <h2 className="card-title text-3xl font-bold flex items-center gap-2">
+                <h2 className="card-title text-3xl font-bold text-white flex items-center gap-2">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                   </svg>
                   Our Mission
                 </h2>
-                <p className="text-lg ">
+                <p className="text-lg text-white">
                   To increase public awareness and understanding of disabilities while providing tailored support systems
                   to empower each child to integrate fully into society and achieve their potential.
                 </p>
