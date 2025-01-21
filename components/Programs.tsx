@@ -33,7 +33,7 @@ const events = [
 export default function EventsCarousel() {
 
   return (
-    <section className="py-20 bg-base-100">
+    <section className="py-20 bg-base-100" id='#events'>
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-12">
@@ -46,7 +46,7 @@ export default function EventsCarousel() {
 
           {/* Cards Container */}
           <div
-            className="overflow-hidden px-4 lg:grid-cols-3 grid-cols-1"
+            className="overflow-hidden px-4 grid lg:grid-cols-3 grid-cols-1"
           >
             <div 
               className="flex transition-transform duration-500 ease-out"

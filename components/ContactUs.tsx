@@ -8,7 +8,7 @@ export default function ContactUs() {
 //   };
 
   return (
-    <section className="py-20 bg-base-100">
+    <section className="py-20 bg-base-100" id='#contact'>
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">

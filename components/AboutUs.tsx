@@ -1,8 +1,8 @@
-
+import Link from 'next/link'
 
 export default function AboutUs() {
   return (
-    <section className="py-20 bg-gradient-to-b from-gray-100 to-white">
+    <section className="py-20 bg-gradient-to-b from-gray-100 to-white" id='#about'>
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12 text-green-700">About Us</h2>
         <div className="max-w-4xl mx-auto text-center">
@@ -27,9 +27,11 @@ export default function AboutUs() {
             and continues across all areas of life, ensuring that every individual, regardless of ability, has the
             opportunity to thrive and contribute meaningfully to society.
           </p>
+          <Link href="/contact">
           <button className="bg-green-600 hover:bg-green-700 text-white text-lg px-8 py-3 rounded-full font-semibold transition-colors duration-300 shadow-md hover:shadow-lg">
             Join Our Cause
           </button>
+          </Link>
         </div>
       </div>
     </section>

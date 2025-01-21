@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Hero() {
   return (
     <section
@@ -13,7 +15,9 @@ export default function Hero() {
         Global Inclusion Network International is dedicated to creating <br />inclusive communities and  unlocking the
         potential of children with disabilities.
         </p>
-        <button className="btn btn-primary text-white text-lg">Come Support Now</button>
+        <Link href="/contact">
+        <button className="btn btn-primary text-lg">Come Support Now</button>
+        </Link>
       </div>
     </div>
   </section>

@@ -20,12 +20,12 @@ export default function Header() {
               </svg>
             </label>
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              <li><Link href="#" className="text-primary hover:text-secondary">Home</Link></li>
-              <li><Link href="#" className="text-primary hover:text-secondary">About</Link></li>
-              <li><Link href="#" className="text-primary hover:text-secondary">Programs</Link></li>
-              <li><Link href="#" className="text-primary hover:text-secondary">Contact</Link></li>
+              <li><Link href="/" className="text-primary hover:text-secondary">Home</Link></li>
+              <li><Link href="/about" className="text-primary hover:text-secondary">About</Link></li>
+              <li><Link href="/events" className="text-primary hover:text-secondary">Programs</Link></li>
+              <li><Link href="/contact" className="text-primary hover:text-secondary">Contact</Link></li>
               <li className="mt-2">
-                <Link href="#" className="btn btn-primary text-white">Donate</Link>
+                <Link href="/contact" className="btn btn-primary text-white">Donate</Link>
               </li>
             </ul>
           </div>
