@@ -1,3 +1,4 @@
+"use client"
 import { Mail, Phone, MapPin, Clock, MessageSquare } from 'lucide-react';
 
 export default function ContactUs() {
