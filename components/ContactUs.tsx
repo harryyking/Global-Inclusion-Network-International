@@ -22,7 +22,7 @@ export default function ContactUs() {
 
         <div className="grid lg:grid-cols-2 gap-8">
           {/* Contact Information */}
-          <div className="lg:col-span-2 space-y-6">
+          <div className="lg:col-span-1 space-y-6">
             {/* Quick Contact Cards */}
             <div className="card bg-base-200 shadow-lg">
               <div className="card-body">
@@ -52,7 +52,6 @@ export default function ContactUs() {
                       <p className="font-semibold label-text">Visit Us</p>
                       <p className="text-base-content/70">
                         Head Office<br />
-                        <br />
                         Greater Accra
                       </p>
                     </div>
@@ -141,13 +140,12 @@ export default function ContactUs() {
         {/* Map Section */}
         <div className="mt-12 card bg-base-200 shadow-lg overflow-hidden">
           <div className="card-body p-0">
-            <iframe
-              src="https://maps.app.goo.gl/nhpyycVZiMhsBe13A"
-              className="w-full h-96"
-              style={{ border: 0 }}
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1016181.4388983448!2d-0.5758930334651441!3d5.7906894257151045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9084b2b7a773%3A0x53c6d6cf4fd80661!2sGreater%20Accra%20Region!5e0!3m2!1sen!2sgh!4v1737458014499!5m2!1sen!2sgh" 
+          className='h-96 w-full' 
+          style={{border:0}} 
+          loading="lazy" 
+          referrerPolicy="no-referrer-when-downgrade">
+          </iframe>
           </div>
         </div>
       </div>
