@@ -20,7 +20,7 @@ export default function ContactUs() {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-2 gap-8">
           {/* Contact Information */}
           <div className="lg:col-span-1 space-y-6">
             {/* Quick Contact Cards */}
@@ -33,8 +33,8 @@ export default function ContactUs() {
                     <Phone className="w-5 h-5 text-primary mt-1" />
                     <div>
                       <p className="font-semibold">Call Us</p>
-                      <p className="text-base-content/70">+1 (555) 123-4567</p>
-                      <p className="text-base-content/70">+1 (555) 765-4321</p>
+                      <p className="text-base-content/70">+233 (053) 456-4725</p>
+                      <p className="text-base-content/70">+233 (020) 174-3342</p>
                     </div>
                   </div>
 
@@ -42,8 +42,7 @@ export default function ContactUs() {
                     <Mail className="w-5 h-5 text-primary mt-1" />
                     <div>
                       <p className="font-semibold">Email Us</p>
-                      <p className="text-base-content/70">info@gini.org</p>
-                      <p className="text-base-content/70">support@gini.org</p>
+                      <p className="text-base-content/70">globalinclusionnetwork@gmail.com</p>
                     </div>
                   </div>
 
@@ -58,25 +57,7 @@ export default function ContactUs() {
                       </p>
                     </div>
                   </div>
-
-                  <div className="flex items-start gap-4">
-                    <Clock className="w-5 h-5 text-primary mt-1" />
-                    <div>
-                      <p className="font-semibold">Office Hours</p>
-                      <p className="text-base-content/70">Monday - Friday: 9AM - 6PM</p>
-                      <p className="text-base-content/70">Saturday: 10AM - 2PM</p>
-                    </div>
-                  </div>
                 </div>
-              </div>
-            </div>
-
-            {/* Emergency Contact */}
-            <div className="card bg-error text-error-content">
-              <div className="card-body">
-                <h3 className="card-title">Emergency Support</h3>
-                <p>For immediate assistance, call our 24/7 helpline:</p>
-                <p className="text-xl font-bold">1-800-GINI-HELP</p>
               </div>
             </div>
           </div>

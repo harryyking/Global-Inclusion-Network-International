@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight, Calendar, Clock, MapPin } from 'lucide-react
 
 const events = [
   {
-    title: "Early Intervention Workshop",
+    title: "The Autism Conference",
     date: "March 15, 2024",
     time: "9:00 AM - 12:00 PM",
     location: "GINI Community Center",
@@ -12,7 +12,7 @@ const events = [
     image: "https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg?auto=compress&cs=tinysrgb&w=1200"
   },
   {
-    title: "Inclusive Sports Day",
+    title: "Annual Free Health Screening",
     date: "April 2, 2024",
     time: "10:00 AM - 4:00 PM",
     location: "City Sports Complex",
@@ -20,29 +20,14 @@ const events = [
     image: "https://images.pexels.com/photos/8612900/pexels-photo-8612900.jpeg?auto=compress&cs=tinysrgb&w=1200"
   },
   {
-    title: "Parent Support Group",
+    title: "School Outreaches",
     date: "March 20, 2024",
     time: "6:30 PM - 8:00 PM",
     location: "Virtual Meeting",
     description: "Monthly meeting for parents to share experiences and receive professional guidance.",
     image: "https://images.pexels.com/photos/8613335/pexels-photo-8613335.jpeg?auto=compress&cs=tinysrgb&w=1200"
   },
-  {
-    title: "Art Therapy Sessions",
-    date: "March 25, 2024",
-    time: "2:00 PM - 4:00 PM",
-    location: "GINI Art Studio",
-    description: "Creative expression sessions helping children develop motor skills and emotional awareness.",
-    image: "https://images.pexels.com/photos/8612797/pexels-photo-8612797.jpeg?auto=compress&cs=tinysrgb&w=1200"
-  },
-  {
-    title: "Skills Development Program",
-    date: "April 10, 2024",
-    time: "1:00 PM - 3:00 PM",
-    location: "Learning Center",
-    description: "Specialized program focusing on life skills and vocational training for teenagers.",
-    image: "https://images.pexels.com/photos/8613165/pexels-photo-8613165.jpeg?auto=compress&cs=tinysrgb&w=1200"
-  }
+
 ];
 
 export default function EventsCarousel() {
@@ -116,7 +101,7 @@ export default function EventsCarousel() {
                   key={index}
                   className="w-full flex-shrink-0 px-4"
                 >
-                  <div className="card bg-base-100 shadow-xl h-full">
+                  <div className="card bg-base-100 shadow-xl h-full lg:w-96">
                     <figure className="relative h-64">
                       <img 
                         src={event.image} 
