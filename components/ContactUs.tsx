@@ -1,11 +1,48 @@
 "use client"
 import { Mail, Phone, MapPin, Clock, MessageSquare } from 'lucide-react';
 
+type Email = {
+  name: string;
+  subject: string;
+  email: string;
+  message: string;
+}
+
+
 export default function ContactUs() {
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-//     // Handle form submission
-//   };
+
+  const handleSubmit = async (e: any) => {
+    e.preventDefault();
+  
+    const formData : Email= {
+      name: e.target[0].value,
+      email: e.target[1].value,
+      subject: e.target[2].value,
+      message: e.target[3].value,
+    };
+  
+    try {
+      const res = await fetch("/api/send", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+  
+      if (!res.ok) {
+        throw new Error("Failed to send message");
+      }
+  
+      // Handle success
+      alert("Message sent successfully!");
+    } catch (error) {
+      // Handle error
+      console.error("Error sending message:", error);
+      alert("Failed to send message. Please try again later.");
+    }
+  };
+  
 
   return (
     <section className="py-20 bg-base-100" id='#contact'>
@@ -67,7 +104,7 @@ export default function ContactUs() {
               <div className="card-body">
                 <h3 className="text-xl font-bold text-primary mb-6">Send Us a Message</h3>
                 
-                <form className="space-y-6">
+                <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid md:grid-cols-2 gap-6">
                     <div className="form-control">
                       <label className="label">
