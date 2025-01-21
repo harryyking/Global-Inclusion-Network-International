@@ -128,9 +128,6 @@ export default function EventsCarousel() {
                           <span>{event.location}</span>
                         </div>
                       </div>
-                      <div className="card-actions justify-end mt-4">
-                        <button className="btn btn-primary">Register Now</button>
-                      </div>
                     </div>
                   </div>
                 </div>

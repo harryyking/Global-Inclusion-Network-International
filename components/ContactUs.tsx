@@ -22,7 +22,7 @@ export default function ContactUs() {
 
         <div className="grid lg:grid-cols-2 gap-8">
           {/* Contact Information */}
-          <div className="lg:col-span-1 space-y-6">
+          <div className="lg:col-span-2 space-y-6">
             {/* Quick Contact Cards */}
             <div className="card bg-base-200 shadow-lg">
               <div className="card-body">
@@ -32,7 +32,7 @@ export default function ContactUs() {
                   <div className="flex items-start gap-4">
                     <Phone className="w-5 h-5 text-primary mt-1" />
                     <div>
-                      <p className="font-semibold">Call Us</p>
+                      <p className="font-semibold label-text">Call Us</p>
                       <p className="text-base-content/70">+233 (053) 456-4725</p>
                       <p className="text-base-content/70">+233 (020) 174-3342</p>
                     </div>
@@ -41,7 +41,7 @@ export default function ContactUs() {
                   <div className="flex items-start gap-4">
                     <Mail className="w-5 h-5 text-primary mt-1" />
                     <div>
-                      <p className="font-semibold">Email Us</p>
+                      <p className="font-semibold label-text">Email Us</p>
                       <p className="text-base-content/70">globalinclusionnetwork@gmail.com</p>
                     </div>
                   </div>
@@ -49,11 +49,11 @@ export default function ContactUs() {
                   <div className="flex items-start gap-4">
                     <MapPin className="w-5 h-5 text-primary mt-1" />
                     <div>
-                      <p className="font-semibold">Visit Us</p>
+                      <p className="font-semibold label-text">Visit Us</p>
                       <p className="text-base-content/70">
-                        123 Community Center Drive,<br />
-                        Suite 200,<br />
-                        New York, NY 10001
+                        Head Office<br />
+                        <br />
+                        Greater Accra
                       </p>
                     </div>
                   </div>
@@ -142,7 +142,7 @@ export default function ContactUs() {
         <div className="mt-12 card bg-base-200 shadow-lg overflow-hidden">
           <div className="card-body p-0">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.119763931855!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1695921191955!5m2!1sen!2s"
+              src="https://maps.app.goo.gl/nhpyycVZiMhsBe13A"
               className="w-full h-96"
               style={{ border: 0 }}
               loading="lazy"
