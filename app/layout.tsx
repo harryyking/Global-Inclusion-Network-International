@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import {Poppins} from 'next/font/google'
+import {Gabarito} from 'next/font/google'
 
-const brand = Poppins({weight:["300","400","600"], subsets:['latin']})
+const brand = Gabarito({weight:["400","600", "700","800"], subsets:['latin']})
 
 export const metadata: Metadata = {
   title: "Create Next App",
