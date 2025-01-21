@@ -19,7 +19,7 @@ export default function MissionVision() {
           {/* Left Column - Mission & Vision */}
           <div className="space-y-8 animate-fade-in-up">
             {/* Vision Card */}
-            <div className="card bg-base-200 shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+            <div className="card bg-white border shadow-secondary shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
               <div className="card-body">
                 <h2 className="card-title text-3xl font-bold text-secondary flex items-center gap-2">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -36,7 +36,7 @@ export default function MissionVision() {
             </div>
 
             {/* Mission Card */}
-            <div className="card bg-base-200 shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
+            <div className="card bg-white border shadow-primary shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-1">
               <div className="card-body">
                 <h2 className="card-title text-3xl font-bold text-primary flex items-center gap-2">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
