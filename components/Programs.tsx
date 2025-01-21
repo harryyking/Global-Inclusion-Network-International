@@ -46,7 +46,7 @@ export default function EventsCarousel() {
 
           {/* Cards Container */}
           <div
-            className="overflow-hidden px-4 grid lg:grid-cols-3 grid-cols-1"
+            className="overflow-hidden px-4 grid grid-cols-1 lg:grid-cols-3 "
           >
             <div 
               className="flex transition-transform duration-500 ease-out"
