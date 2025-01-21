@@ -1,5 +1,3 @@
-"use client"
-import { useState, useEffect, useRef } from 'react';
 import { ChevronLeft, ChevronRight, Calendar, Clock, MapPin } from 'lucide-react';
 
 const events = [

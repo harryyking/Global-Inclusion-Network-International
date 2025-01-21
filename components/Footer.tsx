@@ -23,17 +23,17 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="hover:text-orange-300 transition-colors duration-300">
+                <Link href="#about" className="hover:text-orange-300 transition-colors duration-300">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/events" className="hover:text-orange-300 transition-colors duration-300">
+                <Link href="#events" className="hover:text-orange-300 transition-colors duration-300">
                   Programs
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-orange-300 transition-colors duration-300">
+                <Link href="#contact" className="hover:text-orange-300 transition-colors duration-300">
                   Contact
                 </Link>
               </li>
