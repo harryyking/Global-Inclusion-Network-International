@@ -28,7 +28,7 @@ export default function MissionVision() {
                   </svg>
                   Our Vision
                 </h2>
-                <p className="text-lg leading-relaxed">
+                <p className="text-lg">
                   To dismantle societal myths surrounding disability and establish an inclusive platform where every child
                   with a disability not only thrives but also emerges as a valuable contributor to society.
                 </p>
@@ -44,7 +44,7 @@ export default function MissionVision() {
                   </svg>
                   Our Mission
                 </h2>
-                <p className="text-lg leading-relaxed">
+                <p className="text-lg">
                   To increase public awareness and understanding of disabilities while providing tailored support systems
                   to empower each child to integrate fully into society and achieve their potential.
                 </p>
