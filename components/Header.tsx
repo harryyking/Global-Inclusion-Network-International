@@ -25,7 +25,7 @@ export default function Header() {
               <li><Link href="#" className="text-primary hover:text-secondary">Programs</Link></li>
               <li><Link href="#" className="text-primary hover:text-secondary">Contact</Link></li>
               <li className="mt-2">
-                <Link href="#" className="btn btn-outline btn-block">Donate</Link>
+                <Link href="#" className="btn btn-primary text-white">Donate</Link>
               </li>
             </ul>
           </div>
@@ -55,7 +55,7 @@ export default function Header() {
               </Link>
             </li>
           </ul>
-          <Link href="#" className="btn btn-outline ml-4">Donate</Link>
+          <Link href="#" className="btn btn-secondary btn-md text-white ml-4">Donate</Link>
         </div>
       </div>
     </header>
