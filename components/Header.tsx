@@ -39,7 +39,7 @@ export default function Header() {
         </div>
 
         {/* Mobile Sheet */}
-        <div className={`fixed inset-y-0 right-0 w-full bg-base-100 shadow-xl transform transition-transform duration-300 ease-in-out lg:hidden ${isSheetOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+        <div className={`fixed inset-y-0 left-0 w-full bg-base-100 shadow-xl transform transition-transform duration-300 ease-in-out lg:hidden ${isSheetOpen ? 'translate-x-0' : 'translate-x-full'}`}>
           <div className="flex flex-col h-full">
             {/* Close Button */}
             <div className="p-4 flex justify-end">
@@ -65,7 +65,7 @@ export default function Header() {
             </div>
 
             {/* Navigation Links */}
-            <nav className="flex-1 px-4">
+            <nav className="flex-grow text-center px-4">
               <ul className="menu menu-lg gap-2 w-full">
                 <li>
                   <Link
