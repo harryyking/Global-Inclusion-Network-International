@@ -32,7 +32,7 @@ export default function ContactUs() {
                   <div className="flex items-start gap-4">
                     <Phone className="w-5 h-5 text-primary mt-1" />
                     <div>
-                      <p className="font-semibold label-text">Call Us</p>
+                      <p className="font-semibold label-text text-lg">Call Us</p>
                       <p className="text-base-content/70">+233 (053) 456-4725</p>
                       <p className="text-base-content/70">+233 (020) 174-3342</p>
                     </div>
@@ -41,7 +41,7 @@ export default function ContactUs() {
                   <div className="flex items-start gap-4">
                     <Mail className="w-5 h-5 text-primary mt-1" />
                     <div>
-                      <p className="font-semibold label-text">Email Us</p>
+                      <p className="font-semibold label-text text-lg">Email Us</p>
                       <p className="text-base-content/70">globalinclusionnetwork@gmail.com</p>
                     </div>
                   </div>
@@ -49,7 +49,7 @@ export default function ContactUs() {
                   <div className="flex items-start gap-4">
                     <MapPin className="w-5 h-5 text-primary mt-1" />
                     <div>
-                      <p className="font-semibold label-text">Visit Us</p>
+                      <p className="font-semibold label-text text-lg">Visit Us</p>
                       <p className="text-base-content/70">
                         Head Office<br />
                         Greater Accra
@@ -62,7 +62,7 @@ export default function ContactUs() {
           </div>
 
           {/* Contact Form */}
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-1">
             <div className="card bg-base-200 shadow-lg">
               <div className="card-body">
                 <h3 className="text-xl font-bold text-primary mb-6">Send Us a Message</h3>
