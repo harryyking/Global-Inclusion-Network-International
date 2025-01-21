@@ -27,7 +27,7 @@ export default function EventsCarousel() {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-primary mb-4">Upcoming Events & Programs</h2>
+          <h2 className="text-4xl font-bold text-primary mb-4">Events & Programs</h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
           <p className="text-lg text-base-content/80">Join us in making a difference through our various programs and events</p>
         </div>

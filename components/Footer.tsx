@@ -13,6 +13,7 @@ export default function Footer() {
             alt="logo"
             width={80}
             height={80}
+            className="mb-4"
           />
             <h3 className="text-2xl font-bold mb-4">Global Inclusion Network International</h3>
             <p className="text-sm leading-relaxed">
