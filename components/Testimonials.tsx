@@ -14,20 +14,20 @@ const testimonials = [
     author: "Emily R., Special Education Teacher"
   },
   {
-    quote: "GINI's advocacy work is changing perceptions and creating a more inclusive society for all.",
-    author: "Michael T., Disability Rights Advocate"
+    quote: "First time learning about autism. Thank you very much OT Danielle and Jennifer for the education",
+    author: "Gallery Edmond, Community Member"
   },
   {
-    quote: "The dedication of GINI's staff is exceptional. They truly care about each child's development.",
-    author: "Rachel K., Volunteer"
+    quote: "Thank you for the answer! I appreciate it and i will love your email to discuss further. Cheers to the team and facilitators for an amazing session. I enjoyed this and learnt immensely.",
+    author: "Ann Sena Fordie, Community Member"
   },
   {
-    quote: "My daughter has gained so much confidence through GINI's programs. It's been life-changing.",
-    author: "David L., Parent"
+    quote: "Thanks so much for adding me.",
+    author: "Narteh Patience Tsako, Community Member"
   },
   {
-    quote: "The resources and support GINI provides to families are unmatched in our community.",
-    author: "Patricia N., Social Worker"
+    quote: "Woow!, thank you so much for sharing",
+    author: "Beauty Elikem, Community Member"
   },
   {
     quote: "Working with GINI has opened my eyes to the incredible potential in every child.",

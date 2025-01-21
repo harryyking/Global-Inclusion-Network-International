@@ -1,5 +1,6 @@
 import Link from "next/link"
-import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
+import { IoLogoFacebook, IoLogoTwitter, IoLogoInstagram, IoLogoLinkedin } from "react-icons/io"
+
 
 export default function Footer() {
   return (
@@ -41,17 +42,17 @@ export default function Footer() {
           <div>
             <h4 className="text-xl font-semibold mb-4">Connect With Us</h4>
             <div className="flex space-x-4">
-              <Link href="#" className="hover:text-orange-300 transition-colors duration-300">
-                <Facebook className="w-6 h-6" />
+              <Link href="https://www.facebook.com/share/qN7jqPqYuvpSNXsM/?mibextid=LQQJ4d" target='_blank' rel="noopener noreferrer" className="hover:text-orange-300 transition-colors duration-300">
+                <IoLogoFacebook className="w-6 h-6" />
               </Link>
-              <Link href="#" className="hover:text-orange-300 transition-colors duration-300">
-                <Twitter className="w-6 h-6" />
+              <Link href="https://x.com/globalgini/status/1841450547108250014?s=46" target='_blank' rel="noopener noreferrer" className="hover:text-orange-300 transition-colors duration-300">
+                <IoLogoTwitter className="w-6 h-6" />
               </Link>
-              <Link href="#" className="hover:text-orange-300 transition-colors duration-300">
-                <Instagram className="w-6 h-6" />
+              <Link href="https://www.instagram.com/global_inclusion_network_intl?igsh=YXo2MnFkdG9zdXJr&utm_source=qr" target='_blank' rel="noopener noreferrer" className="hover:text-orange-300 transition-colors duration-300">
+                <IoLogoInstagram className="w-6 h-6" />
               </Link>
-              <Link href="#" className="hover:text-orange-300 transition-colors duration-300">
-                <Linkedin className="w-6 h-6" />
+              <Link href="https://www.linkedin.com/in/global-inclusion-network-international-gini-a1211830a" target='_blank'  rel="noopener noreferrer" className="hover:text-orange-300 transition-colors duration-300">
+                <IoLogoLinkedin className="w-6 h-6" />
               </Link>
             </div>
           </div>
