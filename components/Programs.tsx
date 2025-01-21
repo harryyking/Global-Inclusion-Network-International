@@ -43,10 +43,9 @@ export default function EventsCarousel() {
         </div>
 
        
-
-          {/* Cards Container */}
-          <div
-            className="px-4 grid grid-cols-1 lg:grid-cols-3 gap-4"
+          <div className="px-4 grid grid-cols-1 lg:grid-cols-3 gap-4">
+         {/* Cards Container */}
+          <div    
           >
             <div 
               className="flex transition-transform duration-500 ease-out"
@@ -90,6 +89,7 @@ export default function EventsCarousel() {
             </div>
           </div>
     </div>
+          </div>
     </section>
   );
 }
