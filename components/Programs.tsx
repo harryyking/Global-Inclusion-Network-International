@@ -31,32 +31,6 @@ const events = [
 ];
 
 export default function EventsCarousel() {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [isAnimating, setIsAnimating] = useState(false);
-  const containerRef = useRef(null);
-
-  const handlePrevious = () => {
-    if (!isAnimating) {
-      setIsAnimating(true);
-      setCurrentIndex((prevIndex) => 
-        prevIndex === 0 ? events.length - 1 : prevIndex - 1
-      );
-    }
-  };
-
-  const handleNext = () => {
-    if (!isAnimating) {
-      setIsAnimating(true);
-      setCurrentIndex((prevIndex) => 
-        prevIndex === events.length - 1 ? 0 : prevIndex + 1
-      );
-    }
-  };
-
-  useEffect(() => {
-    const timer = setInterval(handleNext, 5000); // Auto-advance every 5 seconds
-    return () => clearInterval(timer);
-  }, [currentIndex]);
 
   return (
     <section className="py-20 bg-base-100">
@@ -68,33 +42,14 @@ export default function EventsCarousel() {
           <p className="text-lg text-base-content/80">Join us in making a difference through our various programs and events</p>
         </div>
 
-        {/* Carousel Container */}
-        <div className="relative">
-          {/* Navigation Buttons */}
-          <button 
-            onClick={handlePrevious}
-            className="btn btn-circle btn-primary absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 z-10"
-          >
-            <ChevronLeft className="w-6 h-6" />
-          </button>
-          <button 
-            onClick={handleNext}
-            className="btn btn-circle btn-primary absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 z-10"
-          >
-            <ChevronRight className="w-6 h-6" />
-          </button>
+       
 
           {/* Cards Container */}
-          <div 
-            ref={containerRef}
-            className="overflow-hidden px-4"
+          <div
+            className="overflow-hidden px-4 lg:grid-cols-3 grid-cols-1"
           >
             <div 
               className="flex transition-transform duration-500 ease-out"
-              style={{ 
-                transform: `translateX(-${currentIndex * 100}%)`,
-              }}
-              onTransitionEnd={() => setIsAnimating(false)}
             >
               {events.map((event, index) => (
                 <div 
@@ -134,21 +89,7 @@ export default function EventsCarousel() {
               ))}
             </div>
           </div>
-
-          {/* Dots Indicator */}
-          <div className="flex justify-center gap-2 mt-8">
-            {events.map((_, index) => (
-              <button
-                key={index}
-                onClick={() => setCurrentIndex(index)}
-                className={`w-3 h-3 rounded-full transition-colors duration-300 ${
-                  currentIndex === index ? 'bg-primary' : 'bg-primary/30'
-                }`}
-              />
-            ))}
-          </div>
-        </div>
-      </div>
+    </div>
     </section>
   );
 }

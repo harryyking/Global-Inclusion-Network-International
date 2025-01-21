@@ -13,7 +13,7 @@ export default function Hero() {
         Global Inclusion Network International is dedicated to creating <br />inclusive communities and  unlocking the
         potential of children with disabilities.
         </p>
-        <button className="btn btn-primary">Come Support Now</button>
+        <button className="btn btn-primary text-white text-lg">Come Support Now</button>
       </div>
     </div>
   </section>
