@@ -49,7 +49,7 @@ export default function EventsCarousel() {
                   key={index}
                   className="w-full flex-shrink-0 px-4"
                 >
-                  <div className="card bg-base-100 shadow-xl h-full lg:w-96">
+                  <div className="card shadow-xl h-full lg:w-96">
                     <figure className="relative h-64">
                       <img 
                         src={event.image} 
