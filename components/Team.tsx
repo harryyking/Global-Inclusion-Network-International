@@ -15,7 +15,7 @@ const teamMembers = [
   {
     name: "Michael Chen",
     role: "Chief Technology Officer",
-    image: "https://ufts.io/f/cQKwx0ZpHag1erGvSyWCzClqYDg1W2G9JfPQV6xAKS3FjTak",
+    image: "https://utfs.io/f/cQKwx0ZpHag1erGvSyWCzClqYDg1W2G9JfPQV6xAKS3FjTak",
     bio: "Leading GINI's technological initiatives, Michael brings 10+ years of experience in developing accessible digital solutions and adaptive technologies for special needs education.",
     social: {
       linkedin: "#",
@@ -26,7 +26,7 @@ const teamMembers = [
   {
     name: "Amanda Martinez",
     role: "Partnerships & Outreach Officer",
-    image: "https://ufts.io/f/cQKwx0ZpHag1ZVSFNuwKhqn5V46uL2fBkpgDYFNaMeCmEtQv",
+    image: "https://utfs.io/f/cQKwx0ZpHag1ZVSFNuwKhqn5V46uL2fBkpgDYFNaMeCmEtQv",
     bio: "Amanda specializes in building meaningful partnerships and community engagement. Her work has helped GINI establish collaborations with over 50 organizations worldwide.",
     social: {
       linkedin: "#",

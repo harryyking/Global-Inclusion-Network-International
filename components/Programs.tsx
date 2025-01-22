@@ -9,7 +9,7 @@ const events = [
   {
     title: "The Disability Conference",
     description: "An Educative Session focused on uncovering the myths, issues concerning disabilities in children",
-    image: "https://ufts.io/f/cQKwx0ZpHag1ERlxmsDSsDmMR24pdXLOFicCunlJrU9ZvWzV"
+    image: "https://utfs.io/f/cQKwx0ZpHag1ERlxmsDSsDmMR24pdXLOFicCunlJrU9ZvWzV"
 
   },
   {
