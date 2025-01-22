@@ -2,18 +2,6 @@ import { QuoteIcon } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "GINI has transformed my child's life. Their support and programs have been invaluable to our family.",
-    author: "Sarah M., Parent"
-  },
-  {
-    quote: "The inclusive environment GINI creates is truly remarkable. It's a place where every child feels valued.",
-    author: "John D., Community Partner"
-  },
-  {
-    quote: "As an educator, I've seen firsthand the positive impact GINI has on children with disabilities.",
-    author: "Emily R., Special Education Teacher"
-  },
-  {
     quote: "First time learning about autism. Thank you very much OT Danielle and Jennifer for the education",
     author: "Gallery Edmond, Community Member"
   },
@@ -31,23 +19,19 @@ const testimonials = [
   },
   {
     quote: "Working with GINI has opened my eyes to the incredible potential in every child.",
-    author: "James B., Program Director"
-  },
-  {
-    quote: "The progress my son has made since joining GINI's programs is nothing short of amazing.",
-    author: "Lisa W., Parent"
-  },
-  {
-    quote: "GINI's approach to inclusive education should be a model for organizations worldwide.",
-    author: "Mark H., Education Consultant"
+    author: "Juliet, Volunteer"
   },
   {
     quote: "The community GINI has built is supportive, understanding, and truly empowering.",
-    author: "Karen Y., Community Member"
+    author: "Nii Ayitey Aryee, Community Member"
   },
   {
-    quote: "Their commitment to accessibility and inclusion sets a new standard for support services.",
-    author: "Robert M., Disability Rights Activist"
+    quote: "Loved every bits about mums supporting each other and adaptive education.",
+    author: "Kristina Gray, Community Member"
+  },
+  {
+    quote: "As an educator, I've seen firsthand the postive impact GINI has on children with disabilities",
+    author: "Nuer Comfort, Special Education Teacher"
   }
 ];
 

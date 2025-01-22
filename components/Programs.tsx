@@ -7,14 +7,19 @@ const events = [
     image: "https://utfs.io/f/cQKwx0ZpHag1thRUgz5iVBrlEPjFkzwSpOU2vfnJ8TdXoyea"
   },
   {
+    title: "The Disability Conference",
+    description: "",
+    image: ""
+
+  },
+  {
     title: "Annual Free Health Screening",
-    
     description: "A day of adaptive sports and activities promoting physical fitness and teamwork.",
     image: "https://media.istockphoto.com/id/1129628379/photo/doctor-meet-african-child.jpg?b=1&s=612x612&w=0&k=20&c=mjYnj42AZOx4-dhpzQG8l7vZq4uyWYrOk1jWJY23hxk="
   },
   {
     title: "School Outreaches",
-    description: "Monthly meeting for parents to share experiences and receive professional guidance.",
+    description: "School outreaches to create more awareness on disabilities and scout for children who have any disabilities or difficulties to provide tailored support systems for them to thrive.",
     image: "https://images.pexels.com/photos/12448839/pexels-photo-12448839.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
 
@@ -37,7 +42,7 @@ export default function EventsCarousel() {
            {/* Cards Container */}
             
               <div 
-                className="px-4 grid grid-cols-1 lg:grid-cols-3 gap-4"
+                className="px-4 grid grid-cols-1 lg:grid-cols-4 gap-4"
               >
               {events.map((event, index) => (
                 <div 
