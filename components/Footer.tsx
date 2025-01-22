@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { IoLogoFacebook, IoLogoTwitter, IoLogoInstagram, IoLogoLinkedin } from "react-icons/io"
+import { IoLogoTiktok } from "react-icons/io5";
 import Image from "next/image"
 
 export default function Footer() {
@@ -60,6 +61,9 @@ export default function Footer() {
               </Link>
               <Link href="https://www.linkedin.com/in/global-inclusion-network-international-gini-a1211830a" target='_blank'  rel="noopener noreferrer" className="hover:text-orange-300 transition-colors duration-300">
                 <IoLogoLinkedin className="w-6 h-6" />
+              </Link>
+              <Link href="https://www.tiktok.com/@global.inclusion?_t=8qD2lGyTyEQ&_r=1" target='_blank'  rel="noopener noreferrer" className="hover:text-orange-300 transition-colors duration-300">
+                <IoLogoTiktok className="w-6 h-6" />
               </Link>
             </div>
           </div>

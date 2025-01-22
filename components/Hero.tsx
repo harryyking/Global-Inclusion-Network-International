@@ -5,7 +5,7 @@ export default function Hero() {
     <section
     className="hero min-h-screen"
     style={{
-      backgroundImage: "url(https://images.pexels.com/photos/9968379/pexels-photo-9968379.jpeg?auto=compress&cs=tinysrgb&w=600)",
+      backgroundImage: "url(https://media.istockphoto.com/id/1133789952/photo/disabled-schoolboy-arms-stretched-out-in-a-corridor.jpg?b=1&s=612x612&w=0&k=20&c=LIfyHkZ_w1WQSZPoXYWge3AgjRSplbjI6-wlwnJ2jvo=)",
     }}>
     <div className="hero-overlay bg-opacity-60"></div>
     <div className="hero-content justify-start text-neutral-content">

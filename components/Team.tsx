@@ -2,9 +2,9 @@ import { Linkedin, Twitter, Mail } from 'lucide-react';
 
 const teamMembers = [
   {
-    name: "Dr. Sarah Johnson",
+    name: "Belinda Tetteh",
     role: "Founder & Executive Director",
-    image: "https://images.pexels.com/photos/3796217/pexels-photo-3796217.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    image: "https://utfs.io/f/cQKwx0ZpHag15M0zCRUk2gbmP0By7jVxfv1iAXU3DdpZRn9T",
     bio: "With over 15 years of experience in special education, Dr. Johnson founded GINI with a vision to create inclusive spaces for children of all abilities. Her work has been recognized internationally.",
     social: {
       linkedin: "#",
@@ -49,7 +49,7 @@ export default function TeamShowcase() {
           <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
           <p className="text-lg text-base-content/80 max-w-2xl mx-auto">
             Our dedicated team of professionals works tirelessly to create positive change
-            and foster inclusive communities worldwide.
+            and foster inclusive communities.
           </p>
         </div>
 
@@ -94,39 +94,9 @@ export default function TeamShowcase() {
                 <p className="text-base-content/80">
                   {member.bio}
                 </p>
-
-                {/* Achievement Stats */}
-                <div className="stats stats-vertical md:stats-horizontal shadow mt-4 bg-base-300/30">
-                  <div className="stat">
-                    <div className="stat-title">Years</div>
-                    <div className="stat-value text-primary text-2xl">15+</div>
-                    <div className="stat-desc">Experience</div>
-                  </div>
-                  
-                  <div className="stat">
-                    <div className="stat-title">Projects</div>
-                    <div className="stat-value text-primary text-2xl">50+</div>
-                    <div className="stat-desc">Completed</div>
-                  </div>
-                </div>
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Join the Team CTA */}
-        <div className="mt-16 text-center">
-          <div className="card bg-primary text-primary-content max-w-2xl mx-auto">
-            <div className="card-body">
-              <h3 className="card-title text-2xl justify-center mb-2">Join Our Team</h3>
-              <p>We're always looking for passionate individuals to join our mission.</p>
-              <div className="card-actions justify-center mt-4">
-                <button className="btn btn-outline btn-wide text-primary-content hover:bg-primary-content hover:text-primary">
-                  View Open Positions
-                </button>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
