@@ -1,4 +1,5 @@
 import { Linkedin, Twitter, Mail } from 'lucide-react';
+import { IoLogoLinkedin, IoLogoTwitter } from 'react-icons/io';
 
 const teamMembers = [
   {
@@ -13,18 +14,51 @@ const teamMembers = [
     }
   },
   {
-    name: "Michael Chen",
+    name: "Michael Obeng",
     role: "Chief Technology Officer",
     image: "https://utfs.io/f/cQKwx0ZpHag1erGvSyWCzClqYDg1W2G9JfPQV6xAKS3FjTak",
-    bio: "Leading GINI's technological initiatives, Michael brings 10+ years of experience in developing accessible digital solutions and adaptive technologies for special needs education.",
+    bio: "Michael Obeng is a dedicated entrepreneur, writer, and advocate who champions entreprenuership, youth leadership, and disability rights, driving positive change through his work.",
     social: {
-      linkedin: "#",
-      twitter: "#",
+      linkedin: "https://www.linkedin.com/in/michael-obeng-5624a7198",
+      twitter: "https://twitter.com/Michael61439145?t=jkbmbmrK0x-0owN8BFhGqA&s=09",
       email: "michael@gini.org"
     }
   },
   {
-    name: "Amanda Martinez",
+    name: "Belinda Tetteh",
+    role: "Partnerships & Outreach Officer",
+    image: "https://utfs.io/f/cQKwx0ZpHag1ZVSFNuwKhqn5V46uL2fBkpgDYFNaMeCmEtQv",
+    bio: "Belinda Tetteh is an Occupational Therapist from Ghana with a Bachelor's degree in occupational therapy from the University of Ghana, Legon. Belinda is passionate about disability inclusion because she belives in their potentials. As the founder of GINI, she aims to create an inclusive platform where children with disabilities not only thrive but are empowered to become valuable assets in our society.",
+    social: {
+      linkedin: "#",
+      twitter: "#",
+      email: "amanda@gini.org"
+    }
+  },
+  {
+    name: "Desmond",
+    role: "Partnerships & Outreach Officer",
+    image: "https://utfs.io/f/cQKwx0ZpHag1ZVSFNuwKhqn5V46uL2fBkpgDYFNaMeCmEtQv",
+    bio: "Desmond is an advocate for children with focus on those with disabilities. He is currently studying disability and rehabilitation at Knust specialising in Cognitive Rehabilitation and Mental Health.",
+    social: {
+      linkedin: "#",
+      twitter: "#",
+      email: "amanda@gini.org"
+    }
+  },
+  {
+    name: "Yvonne Enyonam Afare",
+    role: "Partnerships & Outreach Officer",
+    image: "https://utfs.io/f/cQKwx0ZpHag1ZVSFNuwKhqn5V46uL2fBkpgDYFNaMeCmEtQv",
+    bio: "She is an Entrepreneur, freelance marketer, content creator and a restaurant consultant whose primary goal is to teach people how to create marketing strategies and brand strategies to grow their business.",
+    social: {
+      linkedin: "#",
+      twitter: "#",
+      email: "amanda@gini.org"
+    }
+  },
+  {
+    name: "Daniella Korletey is a dedicated and highly skilled community-based Occupational Therapist and founder of Shai Osu-Doku Community-Based Occupational Therapy Center, Dodowa, located in the Greater Accra",
     role: "Partnerships & Outreach Officer",
     image: "https://utfs.io/f/cQKwx0ZpHag1ZVSFNuwKhqn5V46uL2fBkpgDYFNaMeCmEtQv",
     bio: "Amanda specializes in building meaningful partnerships and community engagement. Her work has helped GINI establish collaborations with over 50 organizations worldwide.",
@@ -72,10 +106,10 @@ export default function TeamShowcase() {
                 {/* Social Links */}
                 <div className="absolute bottom-4 right-4 flex gap-2">
                   <a href={member.social.linkedin} className="btn btn-circle btn-sm btn-primary">
-                    <Linkedin className="w-4 h-4" />
+                    <IoLogoLinkedin className="w-4 h-4" />
                   </a>
                   <a href={member.social.twitter} className="btn btn-circle btn-sm btn-primary">
-                    <Twitter className="w-4 h-4" />
+                    <IoLogoTwitter className="w-4 h-4" />
                   </a>
                   <a href={`mailto:${member.social.email}`} className="btn btn-circle btn-sm btn-primary">
                     <Mail className="w-4 h-4" />
