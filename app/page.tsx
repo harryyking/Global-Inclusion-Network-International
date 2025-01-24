@@ -5,6 +5,7 @@ import MissionVision from "@/components/MissionVision";
 import EventsCarousel from "@/components/Programs";
 import Testimonials from "@/components/Testimonials";
 import TeamShowcase from "@/components/Team"
+import Volunteer from "@/components/Volunteer";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       <TeamShowcase/>
       <Testimonials/>
       <EventsCarousel/>
-     
+      <Volunteer/>
     </>
   );
 }
