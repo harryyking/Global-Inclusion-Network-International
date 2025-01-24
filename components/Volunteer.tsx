@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Volunteer = () => {
   return (
-    <div className='max-w-7xl'>
+ 
 
     <div
       className="relative h-[350px] w-full bg-cover bg-center flex items-center justify-center"
@@ -27,7 +27,6 @@ const Volunteer = () => {
           Join Us
         </Link>
       </div>
-    </div>
     </div>
   );
 };
