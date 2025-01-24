@@ -48,8 +48,8 @@ const teamMembers = [
     }
   },
   {
-    name: "Chairperson",
-    role: "Partnerships & Outreach Officer",
+    name: "Daniella Korletey",
+    role: "Chairperson",
     image: "https://utfs.io/f/xQbdaz3ivwOMpXyZL7BXOTVMPGslDYHQW5BLmJEcjnakUidN",
     bio: "Daniella Korletey is a dedicated and highly skilled community-based Occupational Therapist and founder of Shai Osu-Doku Community-Based Occupational Therapy Center, Dodowa, located in the Greater Accra.",
     social: {
@@ -57,7 +57,29 @@ const teamMembers = [
       twitter: "#",
       email: "amanda@gini.org"
     }
-  }
+  },
+  {
+    name: "David Korletey",
+    role: "Chairperson",
+    image: "https://utfs.io/f/xQbdaz3ivwOMpXyZL7BXOTVMPGslDYHQW5BLmJEcjnakUidN",
+    bio: "Daniella Korletey is a dedicated and highly skilled community-based Occupational Therapist and founder of Shai Osu-Doku Community-Based Occupational Therapy Center, Dodowa, located in the Greater Accra.",
+    social: {
+      linkedin: "#",
+      twitter: "#",
+      email: "amanda@gini.org"
+    }
+  },
+  {
+    name: "Wilbert Dzatao",
+    role: "Chairperson",
+    image: "https://utfs.io/f/xQbdaz3ivwOMpXyZL7BXOTVMPGslDYHQW5BLmJEcjnakUidN",
+    bio: "Daniella Korletey is a dedicated and highly skilled community-based Occupational Therapist and founder of Shai Osu-Doku Community-Based Occupational Therapy Center, Dodowa, located in the Greater Accra.",
+    social: {
+      linkedin: "#",
+      twitter: "#",
+      email: "amanda@gini.org"
+    }
+  },
 ];
 
 export default function TeamShowcase() {
