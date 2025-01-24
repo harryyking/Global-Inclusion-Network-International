@@ -44,7 +44,7 @@ const teamMembers = [
   
   
   {
-    name: "Desmond Delali Yatsi ",
+    name: "Desmond Dela Yatsi ",
     role: "Partnerships and Outreach Officer",
     image: "https://utfs.io/f/cQKwx0ZpHag1ZVSFNuwKhqn5V46uL2fBkpgDYFNaMeCmEtQv",
     bio: "Desmond is an advocate for children with focus on those with disabilities. He is currently studying disability and rehabilitation at Knust specialising in Cognitive Rehabilitation and Mental Health.",
@@ -97,7 +97,7 @@ export default function TeamShowcase() {
                   alt={member.name}
                   className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-base-300/60 to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-base-100/60 to-transparent"></div>
                 
                 {/* Social Links */}
                 <div className="absolute bottom-4 right-4 flex gap-2">
