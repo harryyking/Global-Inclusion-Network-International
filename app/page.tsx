@@ -16,7 +16,6 @@ export default function Home() {
       <TeamShowcase/>
       <Testimonials/>
       <EventsCarousel/>
-      <ContactUs/>
      
     </>
   );
