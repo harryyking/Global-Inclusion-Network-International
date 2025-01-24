@@ -6,7 +6,7 @@ const teamMembers = [
     name: "Belinda Tetteh",
     role: "Partnerships & Outreach Officer",
     image: "https://utfs.io/f/xQbdaz3ivwOMUhpokcpKbiWGs8DfV0BPONnky5mFe6az3Tvu",
-    bio: "Belinda Tetteh is an Occupational Therapist from Ghana with a Bachelor's degree in occupational therapy from the University of Ghana, Legon. Belinda is passionate about disability inclusion because she belives in their potentials. As the founder of GINI, she aims to create an inclusive platform where children with disabilities not only thrive but are empowered to become valuable assets in our society.",
+    bio: "Belinda Tetteh is an Occupational Therapist from Ghana with a Bachelor's degree in occupational therapy from the University of Ghana, Legon. Belinda is passionate about disability inclusion because she believes in their potentials. As the founder of GINI, she aims to create an inclusive platform where children with disabilities not only thrive but are empowered to become valuable assets in our society.",
     social: {
       linkedin: "#",
       twitter: "#",
@@ -39,7 +39,7 @@ const teamMembers = [
   {
     name: "Yvonne Enyonam Afare",
     role: "Entreprenuer, Marketer",
-    image: "https://utfs.io/f/cQKwx0ZpHag1ZVSFNuwKhqn5V46uL2fBkpgDYFNaMeCmEtQv",
+    image: "https://utfs.io/f/xQbdaz3ivwOMNaCPxOsBycHYld6ZkMKJPRzxwAsf17NQOGDT",
     bio: "She is an Entrepreneur, freelance marketer, content creator and a restaurant consultant whose primary goal is to teach people how to create marketing strategies and brand strategies to grow their business.",
     social: {
       linkedin: "#",
@@ -51,7 +51,7 @@ const teamMembers = [
     name: "Daniella Korletey",
     role: "Chairperson",
     image: "https://utfs.io/f/xQbdaz3ivwOMpXyZL7BXOTVMPGslDYHQW5BLmJEcjnakUidN",
-    bio: "Daniella Korletey is a dedicated and highly skilled community-based Occupational Therapist and founder of Shai Osu-Doku Community-Based Occupational Therapy Center, Dodowa, located in the Greater Accra.",
+    bio: "Daniella Korletey is a dedicated and highly skilled community-based Occupational Therapist and founder of Shai Osu-Doku Community-Based Occupational Therapy Center, Dodowa, located in the Greater Accra.  Since 2018, she has played a pivotal role in establishing and managing the community occupational therapy unit, which has been instrumental in providing essential services to individuals with disabilities in her community",
     social: {
       linkedin: "#",
       twitter: "#",
@@ -60,7 +60,7 @@ const teamMembers = [
   },
   {
     name: "David Korletey",
-    role: "Special Educationalist",
+    role: "Education Specialist",
     image: "https://utfs.io/f/xQbdaz3ivwOMGQaHZfAoSPCBpyvnu9GUIkfscg3YEHa4F67w",
     bio: "Daniella Korletey is a dedicated and highly skilled community-based Occupational Therapist and founder of Shai Osu-Doku Community-Based Occupational Therapy Center, Dodowa, located in the Greater Accra.",
     social: {
@@ -70,10 +70,10 @@ const teamMembers = [
     }
   },
   {
-    name: "Wilbert Dzatao",
-    role: "Chairperson",
+    name: "Wilbert Boadzo",
+    role: "Chief Technology Officer (CTO)",
     image: "https://utfs.io/f/xQbdaz3ivwOMcLMKFxHRepX2OvjPJZKwund0oC9tErGN1zi5",
-    bio: "Daniella Korletey is a dedicated and highly skilled community-based Occupational Therapist and founder of Shai Osu-Doku Community-Based Occupational Therapy Center, Dodowa, located in the Greater Accra.",
+    bio: "Daniella Korletey is a dedicated and highly skilled community-based Occupational Therapist and founder of Shai Osu-Doku Community-Based Occupational Therapy Center, Dodowa, located in the Greater Accra.  Since 2018, she has played a pivotal role in establishing and managing the community occupational therapy unit, which has been instrumental in providing essential services to individuals with disabilities in her community",
     social: {
       linkedin: "#",
       twitter: "#",
