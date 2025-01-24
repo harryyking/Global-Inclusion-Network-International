@@ -97,7 +97,7 @@ export default function TeamShowcase() {
                   alt={member.name}
                   className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-base-100/60 to-transparent"></div>
+                {/* <div className="absolute inset-0 bg-gradient-to-t from-base-100/60 to-transparent"></div> */}
                 
                 {/* Social Links */}
                 <div className="absolute bottom-4 right-4 flex gap-2">
