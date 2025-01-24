@@ -10,7 +10,7 @@ const teamMembers = [
     social: {
       linkedin: "https://www.linkedin.com/in/belinda-tetteh",
       twitter: "https://x.com/belindate57758/status/186221605617524909?s=46",
-      email: "amanda@gini.org"
+      email: "btetteh740@gmail.com"
     }
   },
   {
@@ -62,7 +62,7 @@ const teamMembers = [
     name: "David Korletey",
     role: "Educational Specialist",
     image: "https://utfs.io/f/xQbdaz3ivwOMGQaHZfAoSPCBpyvnu9GUIkfscg3YEHa4F67w",
-    bio: "Daniella Korletey is a dedicated and highly skilled community-based Occupational Therapist and founder of Shai Osu-Doku Community-Based Occupational Therapy Center, Dodowa, located in the Greater Accra.",
+    bio: "David Korletey is a passionate social entrepreneur, researcher, and disability specialist who advocates for inclusivity, youth empowerment, and sustainable development, driving impactful change through his work and community initiatives.",
     social: {
       linkedin: "#",
       twitter: "#",
