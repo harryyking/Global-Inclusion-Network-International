@@ -5,7 +5,7 @@ const teamMembers = [
   {
     name: "Belinda Tetteh",
     role: "Partnerships & Outreach Officer",
-    image: "https://utfs.io/f/cQKwx0ZpHag1ZVSFNuwKhqn5V46uL2fBkpgDYFNaMeCmEtQv",
+    image: "https://utfs.io/f/xQbdaz3ivwOMUhpokcpKbiWGs8DfV0BPONnky5mFe6az3Tvu",
     bio: "Belinda Tetteh is an Occupational Therapist from Ghana with a Bachelor's degree in occupational therapy from the University of Ghana, Legon. Belinda is passionate about disability inclusion because she belives in their potentials. As the founder of GINI, she aims to create an inclusive platform where children with disabilities not only thrive but are empowered to become valuable assets in our society.",
     social: {
       linkedin: "#",
@@ -28,7 +28,7 @@ const teamMembers = [
   {
     name: "Desmond Delali Yatsi ",
     role: "Partnerships and Outreach Officer",
-    image: "https://utfs.io/f/xQbdaz3ivwOMGQaHZfAoSPCBpyvnu9GUIkfscg3YEHa4F67w",
+    image: "https://utfs.io/f/cQKwx0ZpHag1ZVSFNuwKhqn5V46uL2fBkpgDYFNaMeCmEtQv",
     bio: "Desmond is an advocate for children with focus on those with disabilities. He is currently studying disability and rehabilitation at Knust specialising in Cognitive Rehabilitation and Mental Health.",
     social: {
       linkedin: "#",
@@ -82,7 +82,7 @@ export default function TeamShowcase() {
           {teamMembers.map((member, index) => (
             <div 
               key={index}
-              className="card bg-base-200 shadow-xl overflow-hidden group hover:-translate-y-2 transition-transform duration-300"
+              className="card bg-base-100 shadow-xl overflow-hidden group hover:-translate-y-2 transition-transform duration-300"
             >
               {/* Image Container */}
               <figure className="relative h-72 overflow-hidden">
@@ -91,7 +91,7 @@ export default function TeamShowcase() {
                   alt={member.name}
                   className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-base-300/80 to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-base-300/60 to-transparent"></div>
                 
                 {/* Social Links */}
                 <div className="absolute bottom-4 right-4 flex gap-2">
