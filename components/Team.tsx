@@ -4,28 +4,6 @@ import { IoLogoLinkedin, IoLogoTwitter } from 'react-icons/io';
 const teamMembers = [
   {
     name: "Belinda Tetteh",
-    role: "Founder & Executive Director",
-    image: "https://utfs.io/f/cQKwx0ZpHag15M0zCRUk2gbmP0By7jVxfv1iAXU3DdpZRn9T",
-    bio: "With over 15 years of experience in special education, Dr. Johnson founded GINI with a vision to create inclusive spaces for children of all abilities. Her work has been recognized internationally.",
-    social: {
-      linkedin: "#",
-      twitter: "#",
-      email: "sarah@gini.org"
-    }
-  },
-  {
-    name: "Michael Obeng",
-    role: "Chief Technology Officer",
-    image: "https://utfs.io/f/cQKwx0ZpHag1erGvSyWCzClqYDg1W2G9JfPQV6xAKS3FjTak",
-    bio: "Michael Obeng is a dedicated entrepreneur, writer, and advocate who champions entreprenuership, youth leadership, and disability rights, driving positive change through his work.",
-    social: {
-      linkedin: "https://www.linkedin.com/in/michael-obeng-5624a7198",
-      twitter: "https://twitter.com/Michael61439145?t=jkbmbmrK0x-0owN8BFhGqA&s=09",
-      email: "michael@gini.org"
-    }
-  },
-  {
-    name: "Belinda Tetteh",
     role: "Partnerships & Outreach Officer",
     image: "https://utfs.io/f/cQKwx0ZpHag1ZVSFNuwKhqn5V46uL2fBkpgDYFNaMeCmEtQv",
     bio: "Belinda Tetteh is an Occupational Therapist from Ghana with a Bachelor's degree in occupational therapy from the University of Ghana, Legon. Belinda is passionate about disability inclusion because she belives in their potentials. As the founder of GINI, she aims to create an inclusive platform where children with disabilities not only thrive but are empowered to become valuable assets in our society.",
@@ -36,8 +14,20 @@ const teamMembers = [
     }
   },
   {
-    name: "Desmond",
-    role: "Partnerships & Outreach Officer",
+    name: "Michael Obeng",
+    role: "Chief Technology Officer",
+    image: "https://utfs.io/f/xQbdaz3ivwOMf8pCNYAIAgoWdm8U1Cj9M2ew5LhcDQv3JR6Z",
+    bio: "Michael Obeng is a dedicated entrepreneur, writer, and advocate who champions entreprenuership, youth leadership, and disability rights, driving positive change through his work.",
+    social: {
+      linkedin: "https://www.linkedin.com/in/michael-obeng-5624a7198",
+      twitter: "https://twitter.com/Michael61439145?t=jkbmbmrK0x-0owN8BFhGqA&s=09",
+      email: "michael@gini.org"
+    }
+  },
+  
+  {
+    name: "Desmond Delali Yatsi ",
+    role: "Partnerships and Outreach Officer",
     image: "https://utfs.io/f/xQbdaz3ivwOMGQaHZfAoSPCBpyvnu9GUIkfscg3YEHa4F67w",
     bio: "Desmond is an advocate for children with focus on those with disabilities. He is currently studying disability and rehabilitation at Knust specialising in Cognitive Rehabilitation and Mental Health.",
     social: {
@@ -48,7 +38,7 @@ const teamMembers = [
   },
   {
     name: "Yvonne Enyonam Afare",
-    role: "Partnerships & Outreach Officer",
+    role: "Entreprenuer, Marketer",
     image: "https://utfs.io/f/cQKwx0ZpHag1ZVSFNuwKhqn5V46uL2fBkpgDYFNaMeCmEtQv",
     bio: "She is an Entrepreneur, freelance marketer, content creator and a restaurant consultant whose primary goal is to teach people how to create marketing strategies and brand strategies to grow their business.",
     social: {
@@ -58,7 +48,7 @@ const teamMembers = [
     }
   },
   {
-    name: "Daniella Korletey",
+    name: "Chairperson",
     role: "Partnerships & Outreach Officer",
     image: "https://utfs.io/f/xQbdaz3ivwOMpXyZL7BXOTVMPGslDYHQW5BLmJEcjnakUidN",
     bio: "Daniella Korletey is a dedicated and highly skilled community-based Occupational Therapist and founder of Shai Osu-Doku Community-Based Occupational Therapy Center, Dodowa, located in the Greater Accra.",
