@@ -14,17 +14,6 @@ const teamMembers = [
     }
   },
   {
-    name: "Wilbert Boadzo",
-    role: "Chief Technology Officer (CTO)",
-    image: "https://utfs.io/f/xQbdaz3ivwOMcLMKFxHRepX2OvjPJZKwund0oC9tErGN1zi5",
-    bio: "Daniella Korletey is a dedicated and highly skilled community-based Occupational Therapist and founder of Shai Osu-Doku Community-Based Occupational Therapy Center, Dodowa, located in the Greater Accra.  Since 2018, she has played a pivotal role in establishing and managing the community occupational therapy unit, which has been instrumental in providing essential services to individuals with disabilities in her community",
-    social: {
-      linkedin: "#",
-      instagram: "#",
-      email: "#"
-    }
-  },
-  {
     name: "Michael Obeng",
     role: "Co-Founder/Chief Technology Officer",
     image: "https://utfs.io/f/xQbdaz3ivwOMf8pCNYAIAgoWdm8U1Cj9M2ew5LhcDQv3JR6Z",
@@ -35,6 +24,24 @@ const teamMembers = [
       instagram: "https://www.instagram.com/daddymoney1/profilecard/?igsh=ZTJnN3N0aHMwZ244"
     }
   },
+  {
+    name: "Daniella Korletey",
+    role: "Chairperson",
+    image: "https://utfs.io/f/xQbdaz3ivwOMpXyZL7BXOTVMPGslDYHQW5BLmJEcjnakUidN",
+    bio: "Daniella Korletey is a dedicated and highly skilled community-based Occupational Therapist and founder of Shai Osu-Doku Community-Based Occupational Therapy Center, Dodowa, located in the Greater Accra.  Since 2018, she has played a pivotal role in establishing and managing the community occupational therapy unit, which has been instrumental in providing essential services to individuals with disabilities in her community",
+  },
+  {
+    name: "Wilbert Boadzo",
+    role: "Chief Technology Officer (CTO)",
+    image: "https://utfs.io/f/xQbdaz3ivwOMcLMKFxHRepX2OvjPJZKwund0oC9tErGN1zi5",
+    bio: "Daniella Korletey is a dedicated and highly skilled community-based Occupational Therapist and founder of Shai Osu-Doku Community-Based Occupational Therapy Center, Dodowa, located in the Greater Accra.  Since 2018, she has played a pivotal role in establishing and managing the community occupational therapy unit, which has been instrumental in providing essential services to individuals with disabilities in her community",
+    social: {
+      linkedin: "#",
+      instagram: "#",
+      email: "#"
+    }
+  },
+  
   
   {
     name: "Desmond Delali Yatsi ",
@@ -49,12 +56,7 @@ const teamMembers = [
     bio: "She is an Entrepreneur, freelance marketer, content creator and a restaurant consultant whose primary goal is to teach people how to create marketing strategies and brand strategies to grow their business.",
   
   },
-  {
-    name: "Daniella Korletey",
-    role: "Chairperson",
-    image: "https://utfs.io/f/xQbdaz3ivwOMpXyZL7BXOTVMPGslDYHQW5BLmJEcjnakUidN",
-    bio: "Daniella Korletey is a dedicated and highly skilled community-based Occupational Therapist and founder of Shai Osu-Doku Community-Based Occupational Therapy Center, Dodowa, located in the Greater Accra.  Since 2018, she has played a pivotal role in establishing and managing the community occupational therapy unit, which has been instrumental in providing essential services to individuals with disabilities in her community",
-  },
+  
   {
     name: "David Korletey",
     role: "Educational Specialist",
