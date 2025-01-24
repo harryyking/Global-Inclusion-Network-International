@@ -58,10 +58,10 @@ const teamMembers = [
     }
   },
   {
-    name: "Daniella Korletey is a dedicated and highly skilled community-based Occupational Therapist and founder of Shai Osu-Doku Community-Based Occupational Therapy Center, Dodowa, located in the Greater Accra",
+    name: "Daniella Korletey",
     role: "Partnerships & Outreach Officer",
     image: "https://utfs.io/f/cQKwx0ZpHag1ZVSFNuwKhqn5V46uL2fBkpgDYFNaMeCmEtQv",
-    bio: "Amanda specializes in building meaningful partnerships and community engagement. Her work has helped GINI establish collaborations with over 50 organizations worldwide.",
+    bio: "Daniella Korletey is a dedicated and highly skilled community-based Occupational Therapist and founder of Shai Osu-Doku Community-Based Occupational Therapy Center, Dodowa, located in the Greater Accra.",
     social: {
       linkedin: "#",
       twitter: "#",
