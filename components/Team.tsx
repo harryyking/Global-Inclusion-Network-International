@@ -4,12 +4,12 @@ import { IoLogoLinkedin, IoLogoTwitter } from 'react-icons/io';
 const teamMembers = [
   {
     name: "Belinda Tetteh",
-    role: "Partnerships & Outreach Officer",
+    role: "Founder and Executive Director",
     image: "https://utfs.io/f/xQbdaz3ivwOMUhpokcpKbiWGs8DfV0BPONnky5mFe6az3Tvu",
     bio: "Belinda Tetteh is an Occupational Therapist from Ghana with a Bachelor's degree in occupational therapy from the University of Ghana, Legon. Belinda is passionate about disability inclusion because she believes in their potentials. As the founder of GINI, she aims to create an inclusive platform where children with disabilities not only thrive but are empowered to become valuable assets in our society.",
     social: {
-      linkedin: "#",
-      twitter: "#",
+      linkedin: "https://www.linkedin.com/in/belinda-tetteh",
+      twitter: "https://x.com/belindate57758/status/186221605617524909?s=46",
       email: "amanda@gini.org"
     }
   },
@@ -60,7 +60,7 @@ const teamMembers = [
   },
   {
     name: "David Korletey",
-    role: "Education Specialist",
+    role: "Educational Specialist",
     image: "https://utfs.io/f/xQbdaz3ivwOMGQaHZfAoSPCBpyvnu9GUIkfscg3YEHa4F67w",
     bio: "Daniella Korletey is a dedicated and highly skilled community-based Occupational Therapist and founder of Shai Osu-Doku Community-Based Occupational Therapy Center, Dodowa, located in the Greater Accra.",
     social: {
