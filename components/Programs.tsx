@@ -14,7 +14,7 @@ const events = [
   },
   {
     title: "Annual Free Health Screening",
-    description: "Annual free screening and therapy for children with special needs in communities. This project aims to reduce the rate at which children with disabilities are hidden depriving them of the opportunities to access to the right support.",
+    description: "Annual free screening and therapy for children with special needs in communities. This project aims to reduce the rate at which children with disabilities are hidden depriving them of the opportunities to have access to the right support.",
     image: "https://utfs.io/f/xQbdaz3ivwOM7lECNxPhtdKp4LJzmicGaMVXIBO692sgnvAq"
   },
   {
