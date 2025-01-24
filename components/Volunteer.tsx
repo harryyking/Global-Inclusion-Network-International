@@ -24,7 +24,7 @@ const Volunteer = () => {
           target="_blank"
           className="btn btn-secondary btn-md text-white"
         >
-          Join Us
+          Join as a volunteer
         </Link>
       </div>
     </div>
