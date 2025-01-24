@@ -4,7 +4,6 @@ import Hero from "@/components/Hero";
 import MissionVision from "@/components/MissionVision";
 import EventsCarousel from "@/components/Programs";
 import Testimonials from "@/components/Testimonials";
-import TeamShowcase from "@/components/Team"
 import Volunteer from "@/components/Volunteer";
 
 export default function Home() {
@@ -14,7 +13,6 @@ export default function Home() {
       <Hero/>
       <AboutUs/>
       <MissionVision/>
-      <TeamShowcase/>
       <Testimonials/>
       <EventsCarousel/>
       <Volunteer/>

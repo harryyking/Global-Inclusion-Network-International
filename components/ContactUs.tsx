@@ -112,7 +112,7 @@ export default function ContactUs() {
                       </label>
                       <input 
                         type="text" 
-                        className="input input-bordered w-full" 
+                        className="input input-bordered w-full text-black" 
                         placeholder="John Doe"
                         required
                       />
@@ -124,7 +124,7 @@ export default function ContactUs() {
                       </label>
                       <input 
                         type="email" 
-                        className="input input-bordered w-full" 
+                        className="input input-bordered w-full text-black" 
                         placeholder="john@example.com"
                         required
                       />
@@ -135,7 +135,7 @@ export default function ContactUs() {
                     <label className="label">
                       <span className="label-text">Subject</span>
                     </label>
-                    <select className="select select-bordered w-full">
+                    <select className="select select-bordered w-full text-black">
                       <option>General Inquiry</option>
                       <option>Program Information</option>
                       <option>Volunteer Opportunities</option>
@@ -149,7 +149,7 @@ export default function ContactUs() {
                       <span className="label-text">Message</span>
                     </label>
                     <textarea 
-                      className="textarea textarea-bordered h-32" 
+                      className="textarea textarea-bordered h-32 text-black" 
                       placeholder="Your message here..."
                       required
                     ></textarea>
