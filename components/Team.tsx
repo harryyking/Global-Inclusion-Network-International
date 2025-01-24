@@ -1,5 +1,5 @@
 import { Linkedin, Twitter, Mail } from 'lucide-react';
-import { IoLogoLinkedin, IoLogoTwitter } from 'react-icons/io';
+import { IoLogoInstagram, IoLogoLinkedin, IoLogoTwitter } from 'react-icons/io';
 
 const teamMembers = [
   {
@@ -8,9 +8,20 @@ const teamMembers = [
     image: "https://utfs.io/f/xQbdaz3ivwOMUhpokcpKbiWGs8DfV0BPONnky5mFe6az3Tvu",
     bio: "Belinda Tetteh is an Occupational Therapist from Ghana with a Bachelor's degree in occupational therapy from the University of Ghana, Legon. Belinda is passionate about disability inclusion because she believes in their potentials. As the founder of GINI, she aims to create an inclusive platform where children with disabilities not only thrive but are empowered to become valuable assets in our society.",
     social: {
-      linkedin: "https://www.linkedin.com/in/belinda-tetteh",
-      twitter: "https://x.com/belindate57758/status/186221605617524909?s=46",
+      linkedin: "https://www.linkedin.com/in/belinda-tetteh-b79b88227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      instagram: "https://www.instagram.com/belinda_tetteh_bt?igsh=MXUzdDdpdGFkaHcxZQ%3D%3D&utm_source=qr",
       email: "btetteh740@gmail.com"
+    }
+  },
+  {
+    name: "Wilbert Boadzo",
+    role: "Chief Technology Officer (CTO)",
+    image: "https://utfs.io/f/xQbdaz3ivwOMcLMKFxHRepX2OvjPJZKwund0oC9tErGN1zi5",
+    bio: "Daniella Korletey is a dedicated and highly skilled community-based Occupational Therapist and founder of Shai Osu-Doku Community-Based Occupational Therapy Center, Dodowa, located in the Greater Accra.  Since 2018, she has played a pivotal role in establishing and managing the community occupational therapy unit, which has been instrumental in providing essential services to individuals with disabilities in her community",
+    social: {
+      linkedin: "#",
+      instagram: "#",
+      email: "#"
     }
   },
   {
@@ -21,7 +32,7 @@ const teamMembers = [
     social: {
       linkedin: "https://www.linkedin.com/in/michael-obeng-5624a7198",
       twitter: "https://twitter.com/Michael61439145?t=jkbmbmrK0x-0owN8BFhGqA&s=09",
-      email: "michael@gini.org"
+      instagram: "https://www.instagram.com/daddymoney1/profilecard/?igsh=ZTJnN3N0aHMwZ244"
     }
   },
   
@@ -30,56 +41,27 @@ const teamMembers = [
     role: "Partnerships and Outreach Officer",
     image: "https://utfs.io/f/cQKwx0ZpHag1ZVSFNuwKhqn5V46uL2fBkpgDYFNaMeCmEtQv",
     bio: "Desmond is an advocate for children with focus on those with disabilities. He is currently studying disability and rehabilitation at Knust specialising in Cognitive Rehabilitation and Mental Health.",
-    social: {
-      linkedin: "#",
-      twitter: "#",
-      email: "amanda@gini.org"
-    }
   },
   {
     name: "Yvonne Enyonam Afare",
     role: "Public Relations Officer",
     image: "https://utfs.io/f/xQbdaz3ivwOMNaCPxOsBycHYld6ZkMKJPRzxwAsf17NQOGDT",
     bio: "She is an Entrepreneur, freelance marketer, content creator and a restaurant consultant whose primary goal is to teach people how to create marketing strategies and brand strategies to grow their business.",
-    social: {
-      linkedin: "#",
-      twitter: "#",
-      email: "amanda@gini.org"
-    }
+  
   },
   {
     name: "Daniella Korletey",
     role: "Chairperson",
     image: "https://utfs.io/f/xQbdaz3ivwOMpXyZL7BXOTVMPGslDYHQW5BLmJEcjnakUidN",
     bio: "Daniella Korletey is a dedicated and highly skilled community-based Occupational Therapist and founder of Shai Osu-Doku Community-Based Occupational Therapy Center, Dodowa, located in the Greater Accra.  Since 2018, she has played a pivotal role in establishing and managing the community occupational therapy unit, which has been instrumental in providing essential services to individuals with disabilities in her community",
-    social: {
-      linkedin: "#",
-      twitter: "#",
-      email: "amanda@gini.org"
-    }
   },
   {
     name: "David Korletey",
     role: "Educational Specialist",
     image: "https://utfs.io/f/xQbdaz3ivwOMGQaHZfAoSPCBpyvnu9GUIkfscg3YEHa4F67w",
     bio: "David Korletey is a passionate social entrepreneur, researcher, and disability specialist who advocates for inclusivity, youth empowerment, and sustainable development, driving impactful change through his work and community initiatives.",
-    social: {
-      linkedin: "#",
-      twitter: "#",
-      email: "amanda@gini.org"
-    }
   },
-  {
-    name: "Wilbert Boadzo",
-    role: "Chief Technology Officer (CTO)",
-    image: "https://utfs.io/f/xQbdaz3ivwOMcLMKFxHRepX2OvjPJZKwund0oC9tErGN1zi5",
-    bio: "Daniella Korletey is a dedicated and highly skilled community-based Occupational Therapist and founder of Shai Osu-Doku Community-Based Occupational Therapy Center, Dodowa, located in the Greater Accra.  Since 2018, she has played a pivotal role in establishing and managing the community occupational therapy unit, which has been instrumental in providing essential services to individuals with disabilities in her community",
-    social: {
-      linkedin: "#",
-      twitter: "#",
-      email: "amanda@gini.org"
-    }
-  },
+
 ];
 
 export default function TeamShowcase() {
@@ -117,13 +99,13 @@ export default function TeamShowcase() {
                 
                 {/* Social Links */}
                 <div className="absolute bottom-4 right-4 flex gap-2">
-                  <a href={member.social.linkedin} className="btn btn-circle btn-sm btn-primary">
-                    <IoLogoLinkedin className="w-4 h-4" />
+                  <a href={member.social?.instagram} className="btn btn-circle btn-sm btn-primary">
+                    <IoLogoInstagram className="w-4 h-4" />
                   </a>
-                  <a href={member.social.twitter} className="btn btn-circle btn-sm btn-primary">
+                  <a href={member.social?.linkedin} className="btn btn-circle btn-sm btn-primary">
                     <IoLogoTwitter className="w-4 h-4" />
                   </a>
-                  <a href={`mailto:${member.social.email}`} className="btn btn-circle btn-sm btn-primary">
+                  <a href={`mailto:${member.social?.email}`} className="btn btn-circle btn-sm btn-primary">
                     <Mail className="w-4 h-4" />
                   </a>
                 </div>
