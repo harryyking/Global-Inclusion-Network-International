@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Volunteer = () => {
   return (
-    <div className='my-4 max-w-7xl mx-auto'>
+    <div className='max-w-7xl'>
 
     <div
       className="relative h-[350px] w-full bg-cover bg-center flex items-center justify-center"
