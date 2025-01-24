@@ -38,7 +38,7 @@ const teamMembers = [
   },
   {
     name: "Yvonne Enyonam Afare",
-    role: "Entreprenuer, Marketer",
+    role: "Public Relations Officer",
     image: "https://utfs.io/f/xQbdaz3ivwOMNaCPxOsBycHYld6ZkMKJPRzxwAsf17NQOGDT",
     bio: "She is an Entrepreneur, freelance marketer, content creator and a restaurant consultant whose primary goal is to teach people how to create marketing strategies and brand strategies to grow their business.",
     social: {

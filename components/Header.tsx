@@ -100,15 +100,6 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="/contact"
-                    className="text-primary hover:text-secondary"
-                    onClick={() => setIsSheetOpen(false)}
-                  >
-                    Contact
-                  </Link>
-                </li>
-                <li>
-                  <Link
                     href="/team"
                     className="text-primary hover:text-secondary"
                     onClick={() => setIsSheetOpen(false)}
@@ -116,6 +107,16 @@ export default function Header() {
                     Team
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/contact"
+                    className="text-primary hover:text-secondary"
+                    onClick={() => setIsSheetOpen(false)}
+                  >
+                    Contact
+                  </Link>
+                </li>
+                
               </ul>
               <div className="text-secondary w-full my-4 h-6"/>
               {/* Donate Button */}
