@@ -16,7 +16,7 @@ const teamMembers = [
   },
   {
     name: "Michael Obeng",
-    role: "Co-Founder/Chief Operating Officer",
+    role: "Co-Founder and Chief Operating Officer",
     image: "https://utfs.io/f/xQbdaz3ivwOMf8pCNYAIAgoWdm8U1Cj9M2ew5LhcDQv3JR6Z",
     bio: "Michael Obeng is a dedicated entrepreneur, writer, and advocate who champions entreprenuership, youth leadership, and disability rights, driving positive change through his work.",
     social: {
