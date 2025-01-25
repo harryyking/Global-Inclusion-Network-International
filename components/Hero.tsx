@@ -16,7 +16,7 @@ export default function Hero() {
         potential of children with disabilities.
         </p>
         <Link href="https://docs.google.com/forms/d/e/1FAIpQLSe-mSta2f397t5iKFULWo2QHn3YREVwTertBeAtnWZYtAeD1A/viewform">
-        <button className="btn btn-primary">Learn more</button>
+        <button className="btn btn-primary text-white">Learn more</button>
         </Link>
       </div>
     </div>

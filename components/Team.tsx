@@ -10,7 +10,8 @@ const teamMembers = [
     social: {
       linkedin: "https://www.linkedin.com/in/belinda-tetteh-b79b88227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       instagram: "https://www.instagram.com/belinda_tetteh_bt?igsh=MXUzdDdpdGFkaHcxZQ%3D%3D&utm_source=qr",
-      email: "btetteh740@gmail.com"
+      email: "btetteh740@gmail.com",
+      facebook: "https://www.facebook.com/share/15YDxvjNWc/?mibextid=wwXlfr"
     }
   },
   {
@@ -21,6 +22,7 @@ const teamMembers = [
     social: {
       linkedin: "https://www.linkedin.com/in/michael-obeng-5624a7198",
       twitter: "https://twitter.com/Michael61439145?t=jkbmbmrK0x-0owN8BFhGqA&s=09",
+      email: "michaelobeng577@gmail.com",
       instagram: "https://www.instagram.com/daddymoney1/profilecard/?igsh=ZTJnN3N0aHMwZ244"
     }
   },
@@ -34,12 +36,7 @@ const teamMembers = [
     name: "Wilbert Boadzo",
     role: "Chief Technology Officer (CTO)",
     image: "https://utfs.io/f/xQbdaz3ivwOMcLMKFxHRepX2OvjPJZKwund0oC9tErGN1zi5",
-    bio: "Daniella Korletey is a dedicated and highly skilled community-based Occupational Therapist and founder of Shai Osu-Doku Community-Based Occupational Therapy Center, Dodowa, located in the Greater Accra.  Since 2018, she has played a pivotal role in establishing and managing the community occupational therapy unit, which has been instrumental in providing essential services to individuals with disabilities in her community",
-    social: {
-      linkedin: "#",
-      instagram: "#",
-      email: "#"
-    }
+    bio: "Wilbert Boadzo is a software engineer and a blockchain entrepreneur who is interested in building apps and web applications that solve problems in the medical sectors. He is a member of the Accra Ubuntu Leo Club and a volunteer.",
   },
   
   
@@ -100,6 +97,9 @@ export default function TeamShowcase() {
                 {/* <div className="absolute inset-0 bg-gradient-to-t from-base-100/60 to-transparent"></div> */}
                 
                 {/* Social Links */}
+
+                {
+                  member.social && (
                 <div className="absolute bottom-4 right-4 flex gap-2">
                   <a href={member.social?.instagram} className="btn btn-circle btn-sm btn-primary">
                     <IoLogoInstagram className="w-4 h-4" />
@@ -111,6 +111,8 @@ export default function TeamShowcase() {
                     <Mail className="w-4 h-4" />
                   </a>
                 </div>
+                  )
+                }
               </figure>
 
               <div className="card-body">

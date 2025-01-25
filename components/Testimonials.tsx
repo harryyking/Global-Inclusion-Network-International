@@ -10,14 +10,6 @@ const testimonials = [
     author: "Ann Sena Fordie, Community Member"
   },
   {
-    quote: "Thanks so much for adding me.",
-    author: "Narteh Patience Tsako, Community Member"
-  },
-  {
-    quote: "Woow!, thank you so much for sharing",
-    author: "Beauty Elikem, Community Member"
-  },
-  {
     quote: "Working with GINI has opened my eyes to the incredible potential in every child.",
     author: "Juliet, Volunteer"
   },
