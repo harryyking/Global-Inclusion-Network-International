@@ -91,7 +91,7 @@ export default async function BlogPage() {
             {post.title}
           </h2>
 
-          <div className="transition-all duration-300 overflow-hidden" style={{ maxHeight: isExpanded ? '1000px' : '100px' }}>
+          <div className="transition-all duration-300 overflow-hidden text-gray-700" style={{ maxHeight: isExpanded ? '1000px' : '100px' }}>
             {isExpanded ? post.content : truncateContent(post.content)}
           </div>
 
