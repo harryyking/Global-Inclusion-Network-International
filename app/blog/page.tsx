@@ -15,7 +15,8 @@ export interface BlogPost {
   }
 
 async function fetchData() {
-  const response = await fetch("/api/sheets/");
+  const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}` : 'http://localhost:3000';
+  const response = await fetch(`${baseUrl}/api/sheets`);
   if (!response.ok) {
     throw new Error("Failed to fetch data");
   }
