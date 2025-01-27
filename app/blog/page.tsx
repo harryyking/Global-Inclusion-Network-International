@@ -5,7 +5,6 @@ import { Calendar, User, Clock, ChevronRight } from "lucide-react";
 
 // types/blog.ts
 export interface BlogPost {
-  id: string;
   title: string;
   content: string;
   author: string;
@@ -46,6 +45,11 @@ export default async function BlogPage() {
     );
   }
 
+  // Function to truncate content
+  const truncateContent = (content: string, length = 150) => {
+    return content.length > length ? content.substring(0, length) + '...' : content;
+  };
+
   return (
     <div className="min-h-screen bg-base-100 p-8">
       <div className="max-w-4xl mx-auto">
@@ -55,8 +59,8 @@ export default async function BlogPage() {
         </header>
 
         <div className="grid gap-8">
-          {posts.map((post) => (
-            <div key={post.id} className="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow duration-300">
+          {posts.map((post, index) => (
+            <div key={index} className="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow duration-300">
               {post.imageUrl && (
                 <figure className="relative h-64">
                   <img
@@ -91,17 +95,20 @@ export default async function BlogPage() {
                   {post.title}
                 </h2>
 
-                <p className="text-base-content/80 line-clamp-3">{post.content}</p>
-
-                <div className="card-actions justify-end mt-4">
-                  <Link 
-                    href={`/blog/${post.id}`}
-                    className="btn btn-ghost btn-sm text-warning hover:text-warning-focus gap-2"
-                  >
-                    Read More
-                    <ChevronRight className="w-4 h-4" />
-                  </Link>
+                <div className="collapse collapse-arrow">
+                  <input type="checkbox" id={`accordion-${index}`} className="peer" /> 
+                  <div className="collapse-title text-base-content/80 line-clamp-3 peer-checked:line-clamp-none">
+                    {truncateContent(post.content)}
+                  </div>
+                  <div className="collapse-content"> 
+                    <p>{post.content}</p>
+                  </div>
                 </div>
+
+                <label htmlFor={`accordion-${index}`} className="btn btn-ghost btn-sm text-warning hover:text-warning-focus gap-2 cursor-pointer">
+                  Read More
+                  <ChevronRight className="w-4 h-4" />
+                </label>
               </div>
             </div>
           ))}
