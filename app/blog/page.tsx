@@ -39,7 +39,7 @@ export default async function BlogPage() {
   // Check if posts data was successfully fetched
   if (!posts) {
     return (
-      <div className="min-h-screen bg-base-100 p-8 text-center">
+      <div className="min-h-screen bg-base-200 p-8 text-center">
         <h1 className="text-4xl font-bold text-error mb-4">Error Loading Blog Posts</h1>
         <p className="text-base-content/80">Please try again later or contact support.</p>
       </div>
@@ -56,7 +56,7 @@ export default async function BlogPage() {
     const [isExpanded, setIsExpanded] = useState(false);
 
     return (
-      <div className={`card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 ${isExpanded ? 'max-h-[1000px]' : 'max-h-[400px]'}`}>
+      <div className={`card bg-base-200 shadow-xl hover:shadow-2xl transition-all duration-300 ${isExpanded ? 'max-h-[1000px]' : 'max-h-[400px]'}`}>
         {post.imageUrl && (
           <figure className="relative h-64">
             <img
