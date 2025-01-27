@@ -46,7 +46,7 @@ export default async function BlogPage() {
                     className="object-cover w-full h-full"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
-                      target.src = "/api/placeholder/800/400";
+                      target.src = "/api/placeholder/800/500";
                     }}
                   />
                 </figure>
