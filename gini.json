@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "gini-448912",
+  "private_key_id": "e1f923922b316d3e895fafeb30a14a72d1a8a230",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQD1WObAz6DkdO8Q\nw23vq8mOUyefe0yNc8BpkV/b6VsDNfD8RhGgL8Q+3I/5facgJduRcOdhqkZuOO2F\nObtgDAfOlzTn0qDTGocBMJSt2X6XvdJnpbmU5YvrcteUQflyCti0ZJahUW9JyJe3\nrC1sQXpURdr5tHmGU9lA8Aolg/I3q++ROzi5RpBfy4EDOVK8sFi769CryTGqegud\n29flNXCXBBKcarmgXpMswpZLRwnLIa2vlA7BvNj3twTEB3PVuNKEPYdrni7DvDNp\nAEO+BltZ6V1IEBqc4BR3EH4MDNaM1CR6atclNxfzibxOxNI8WvlbOp9aUdHcm5YF\n1Iqm4VNfAgMBAAECggEAI/s+bDcxtg+IIqyRP5MGuOltEts2+4+8P5SNuxIFbPpz\niyvjgzCTgVHriNVqtduXe0RUSrh5d8oVhhz/Y931JHvRyyXSvDhUZaea8RwdOrfL\nVwlbptXl/UkXC1aEShCufgDlLmdjq4Mll6RConEVNa1rqISqmzlKJVc5cGMMxNPC\n3dTNu6SfeY2PCcd81Q5zmZ6gDcmzhHpijvCIB+hi8MlzRnWoAYBc/CkzaxOBFPZw\nc0yoke8UY+0vWmk4BALSufm7hOErsEQqfk39QYzgaykvrUBpHY/ZPFJHX/lGz+SW\nNMfIn+j7BGHtQkPoNSkHUdO0+OJlLVRHGlIQG5hl4QKBgQD8FNRZqfMmj8zaAyOW\nNQACfS43EzmHeANGTyk0DnFWiC/2SNtnzYUKMjJR+cEjKYMiTjdJmnAFmG55B0QT\nEE/61yHx9TXVwfOaOlxyIhySZqVNTAFYMeZbv/fSrjq8RinUdtoo8VFyYoWRl6PT\nUByec5YvlKHV4IqdpUdB/rlJ1wKBgQD5KUXxrMQak67NTTlpTp6mwKlG8dlWrpq8\ndvoMwJOe77nYvxH/VISXXZaeBLxbWikwAr4HFigGYOSPA+9eN4crUzXlKBTpOZ1p\nTBp2uWLQ9SQPYxAHNWCi9WZzzHa9m4qGdJZp/Tv9vvs1j0Tw1LxzgsGbhuqLbnhf\n2RJlLvPhuQKBgQDGqpvYton9ACPQRd0MCmUhkQqVOT+Dtl/OT6EHd8J3EgnKrgzM\nuDp7mKfz10QRtCu3I7GK/n3+yu110PYjmB2QcXA9QqXU+3BDQm+NO7kM4HyyeI4u\ntdT4xkhH8Cw2KY3Z9nlk/xrTbTYbUkk4xtBnSG06vob1Cmv0ZkfMiTX6LQKBgE4z\nNwGgALh6q31CBIfZpg+eHkLm+xiqmmQWT2qbMnnKsaCmb2acxzSeqfwUbm2ZgZ3Q\n7oVY3d0KohGE4abHdMQTTLIMf2unqpD20sN6cdo1ZkjyBYDNrvPWY35qqMXfwH1s\nsBy53w9H1p47xh50FmWGn29Jy+lRFbS3c3+QWfj5AoGBANaEAFHiHKgeeIBB+9lg\n2A3wFK6pz2UgQvw9sJL7MAE4bMqxks/oYnSKU6FObWSWqtoF5ixmjMSSpdmTvwLy\nVpE3JEXl5skDdZrz1M/+jXt/fHkDNtHnPvw2RXyCYEcmv6O09jPXbKtSxAiEcXkW\nAgM+YVntjgVnrRmhow7xfAof\n-----END PRIVATE KEY-----\n",
+  "client_email": "globla-inclusion-network-inter@gini-448912.iam.gserviceaccount.com",
+  "client_id": "112055850713269404333",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/globla-inclusion-network-inter%40gini-448912.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

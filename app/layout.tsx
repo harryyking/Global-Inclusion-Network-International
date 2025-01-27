@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     type: "website",
     url: "www.globalinclusionnetwork.org",
     images: "https://utfs.io/f/cQKwx0ZpHag13i1X9PcUTOh92ABgKFbk4ctY1ZyE7JMeXwL5"
-
+    
   }
 };
 

@@ -1,5 +1,6 @@
 import AboutUs from "@/components/AboutUs";
 import ContactUs from "@/components/ContactUs";
+import CoreValues from "@/components/CoreValues";
 import Hero from "@/components/Hero";
 import MissionVision from "@/components/MissionVision";
 import EventsCarousel from "@/components/Programs";
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero/>
       <AboutUs/>
       <MissionVision/>
+      <CoreValues/>
       <Testimonials/>
       <EventsCarousel/>
       <Volunteer/>

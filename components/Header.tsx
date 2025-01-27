@@ -82,15 +82,6 @@ export default function Header() {
                 </li>
                 <li>
                   <Link
-                    href="#about"
-                    className="text-primary hover:text-secondary"
-                    onClick={() => setIsSheetOpen(false)}
-                  >
-                    About
-                  </Link>
-                </li>
-                <li>
-                  <Link
                     href="/programs"
                     className="text-primary hover:text-secondary"
                     onClick={() => setIsSheetOpen(false)}
@@ -114,6 +105,15 @@ export default function Header() {
                     onClick={() => setIsSheetOpen(false)}
                   >
                     Contact
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/blog"
+                    className="text-primary hover:text-secondary"
+                    onClick={() => setIsSheetOpen(false)}
+                  >
+                    Blog
                   </Link>
                 </li>
                 
@@ -142,11 +142,6 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href="#about" className="text-primary hover:text-secondary font-medium">
-                About
-              </Link>
-            </li>
-            <li>
               <Link href="/programs" className="text-primary hover:text-secondary font-medium">
                 Programs
               </Link>
@@ -159,6 +154,11 @@ export default function Header() {
             <li>
               <Link href="/contact" className="text-primary hover:text-secondary font-medium">
                 Contact
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog" className="text-primary hover:text-secondary font-medium">
+                Blog
               </Link>
             </li>
           </ul>
