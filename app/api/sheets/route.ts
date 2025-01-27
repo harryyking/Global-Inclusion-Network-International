@@ -1,20 +1,24 @@
 import { google } from "googleapis";
 import { NextResponse } from "next/server";
 import path from "path";
-import Gini from "@/gini.json"
 
-// Replace with your downloaded JSON key file
-const keyFile = path.join(process.cwd(), `${Gini}`);
+const { GOOGLE_CREDENTIALS_JSON } = process.env;
+
+if (!GOOGLE_CREDENTIALS_JSON) {
+  throw new Error("Google credentials are not set in the environment");
+}
+
+const credentials = JSON.parse(GOOGLE_CREDENTIALS_JSON);
 
 const auth = new google.auth.GoogleAuth({
-  keyFile,
+  credentials,
   scopes: ["https://www.googleapis.com/auth/spreadsheets.readonly"],
 });
 
 const sheets = google.sheets({ version: "v4", auth });
 
-const spreadsheetId = "1vBJ6IIypg5ffu2Iw7mugNvtHhq-lfXhDSTVKtFYa7Yo"; // Replace with your spreadsheet ID
-const range = "Sheet1!A1:F"; // Adjust range based on your sheet
+const spreadsheetId = "your-spreadsheet-id"; // Replace with your spreadsheet ID
+const range = "Sheet1!A1:H"; // Adjust range based on your sheet
 
 export async function GET() {
   try {
@@ -35,7 +39,6 @@ export async function GET() {
       author: row[2] || "",
       date: row[3] || "",
       content: row[4] || "",
-      ImageUrl: row[5] || ""
     }));
 
     return NextResponse.json({ data });
