@@ -5,28 +5,46 @@ import { Calendar, User, Clock, ChevronRight } from "lucide-react";
 
 // types/blog.ts
 export interface BlogPost {
-    id: string;
-    title: string;
-    content: string;
-    author: string;
-    date: string;
-    imageUrl?: string;
-    readTime?: string;
-  }
+  id: string;
+  title: string;
+  content: string;
+  author: string;
+  date: string;
+  imageUrl?: string;
+  readTime?: string;
+}
 
-  // fetching data
-async function fetchData() {
-  const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}` : 'http://localhost:3000';
-  const response = await fetch(`${baseUrl}/api/sheets`);
-  if (!response.ok) {
-    throw new Error("Failed to fetch data");
+// fetching data
+async function fetchData(): Promise<BlogPost[] | null> {
+  try {
+    const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}` : 'http://localhost:3000';
+    const response = await fetch(`${baseUrl}/api/sheets`);
+    if (!response.ok) {
+      throw new Error("Failed to fetch data");
+    }
+    const data = await response.json();
+    if (!data || !data.data || !Array.isArray(data.data)) {
+      throw new Error("Data format is not as expected");
+    }
+    return data.data as BlogPost[];
+  } catch (error) {
+    console.error("Error fetching Data: ", error);
+    return null;
   }
-  const data = await response.json();
-  return data.data as BlogPost[];
 }
 
 export default async function BlogPage() {
   const posts = await fetchData();
+
+  // Check if posts data was successfully fetched
+  if (!posts) {
+    return (
+      <div className="min-h-screen bg-base-200 p-8 text-center">
+        <h1 className="text-4xl font-bold text-error mb-4">Error Loading Blog Posts</h1>
+        <p className="text-base-content/80">Please try again later or contact support.</p>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-base-200 p-8">
