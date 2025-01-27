@@ -14,6 +14,7 @@ export interface BlogPost {
     readTime?: string;
   }
 
+  // fetching data
 async function fetchData() {
   const baseUrl = process.env.NEXT_PUBLIC_VERCEL_URL ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}` : 'http://localhost:3000';
   const response = await fetch(`${baseUrl}/api/sheets`);
