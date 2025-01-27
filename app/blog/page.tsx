@@ -1,4 +1,5 @@
 // app/blog/page.tsx (main blog listing)
+"use client"
 import React, { useState } from "react";
 import Link from "next/link";
 import { Calendar, User, Clock, ChevronRight } from "lucide-react";
@@ -86,7 +87,7 @@ export default async function BlogPage() {
             </div>
           </div>
 
-          <h2 className="card-title text-2xl text-success hover:text-warning transition-colors duration-200">
+          <h2 className="card-title text-2xl text-success">
             {post.title}
           </h2>
 
