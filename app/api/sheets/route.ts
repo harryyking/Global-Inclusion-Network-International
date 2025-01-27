@@ -39,6 +39,7 @@ export async function GET() {
       author: row[2] || "",
       date: row[3] || "",
       content: row[4] || "",
+      imageurl: row[5] || ""
     }));
 
     return NextResponse.json({ data });
