@@ -1,5 +1,5 @@
 // app/blog/page.tsx (main blog listing)
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { Calendar, User, Clock, ChevronRight } from "lucide-react";
 
@@ -50,67 +50,73 @@ export default async function BlogPage() {
     return content.length > length ? content.substring(0, length) + '...' : content;
   };
 
+  // Client-side component for handling state
+  const BlogCard = ({ post }: { post: BlogPost }) => {
+    const [isExpanded, setIsExpanded] = useState(false);
+
+    return (
+      <div className={`card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 ${isExpanded ? 'max-h-[1000px]' : 'max-h-[400px]'}`}>
+        {post.imageUrl && (
+          <figure className="relative h-64">
+            <img
+              src={post.imageUrl}
+              alt={post.title}
+              className="object-cover w-full h-full"
+              onError={(e) => {
+                const target = e.target as HTMLImageElement;
+                target.src = "/api/placeholder/800/500";
+              }}
+            />
+          </figure>
+        )}
+        
+        <div className="card-body">
+          <div className="flex flex-wrap items-center gap-4 text-sm text-base-content/70 mb-3">
+            <div className="flex items-center gap-1">
+              <Calendar className="w-4 h-4 text-success" />
+              <span>{post.date}</span>
+            </div>
+            <div className="flex items-center gap-1">
+              <User className="w-4 h-4 text-warning" />
+              <span>{post.author}</span>
+            </div>
+            <div className="flex items-center gap-1">
+              <Clock className="w-4 h-4 text-success" />
+              <span>{post.readTime || '5 min read'}</span>
+            </div>
+          </div>
+
+          <h2 className="card-title text-2xl text-success hover:text-warning transition-colors duration-200">
+            {post.title}
+          </h2>
+
+          <div className="transition-all duration-300 overflow-hidden" style={{ maxHeight: isExpanded ? '1000px' : '100px' }}>
+            {isExpanded ? post.content : truncateContent(post.content)}
+          </div>
+
+          <button 
+            onClick={() => setIsExpanded(!isExpanded)}
+            className="btn btn-ghost btn-sm text-warning hover:text-warning-focus gap-2"
+          >
+            {isExpanded ? "Read Less" : "Read More"}
+            <ChevronRight className="w-4 h-4 transform transition-transform" style={{ transform: isExpanded ? 'rotate(90deg)' : 'rotate(0deg)' }} />
+          </button>
+        </div>
+      </div>
+    );
+  };
+
   return (
     <div className="min-h-screen bg-base-100 p-8">
       <div className="max-w-4xl mx-auto">
         <header className="text-center mb-12">
           <h1 className="text-4xl font-bold text-success mb-4">Our Blog</h1>
-          <div className="h-1 w-32 bg-warning mx-auto rounded-full"></div>
+          <div className="h-1 w-32 bg-secondary mx-auto rounded-full"></div>
         </header>
 
         <div className="grid gap-8">
           {posts.map((post, index) => (
-            <div key={index} className="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow duration-300">
-              {post.imageUrl && (
-                <figure className="relative h-64">
-                  <img
-                    src={post.imageUrl}
-                    alt={post.title}
-                    className="object-cover w-full h-full"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.src = "/api/placeholder/800/500";
-                    }}
-                  />
-                </figure>
-              )}
-              
-              <div className="card-body">
-                <div className="flex flex-wrap items-center gap-4 text-sm text-base-content/70 mb-3">
-                  <div className="flex items-center gap-1">
-                    <Calendar className="w-4 h-4 text-success" />
-                    <span>{post.date}</span>
-                  </div>
-                  <div className="flex items-center gap-1">
-                    <User className="w-4 h-4 text-warning" />
-                    <span>{post.author}</span>
-                  </div>
-                  <div className="flex items-center gap-1">
-                    <Clock className="w-4 h-4 text-success" />
-                    <span>{post.readTime || '5 min read'}</span>
-                  </div>
-                </div>
-
-                <h2 className="card-title text-2xl text-success hover:text-warning transition-colors duration-200">
-                  {post.title}
-                </h2>
-
-                <div className="collapse collapse-arrow">
-                  <input type="checkbox" id={`accordion-${index}`} className="peer" /> 
-                  <div className="collapse-title text-base-content/80 line-clamp-3 peer-checked:line-clamp-none">
-                    {truncateContent(post.content)}
-                  </div>
-                  <div className="collapse-content"> 
-                    <p>{post.content}</p>
-                  </div>
-                </div>
-
-                <label htmlFor={`accordion-${index}`} className="btn btn-ghost btn-sm text-warning hover:text-warning-focus gap-2 cursor-pointer">
-                  Read More
-                  <ChevronRight className="w-4 h-4" />
-                </label>
-              </div>
-            </div>
+            <BlogCard key={index} post={post} />
           ))}
         </div>
       </div>
