@@ -15,7 +15,7 @@ export interface BlogPost {
   }
 
 async function fetchData() {
-  const response = await fetch("/api/sheets");
+  const response = await fetch("/api/sheets/");
   if (!response.ok) {
     throw new Error("Failed to fetch data");
   }
