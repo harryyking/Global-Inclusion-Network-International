@@ -12,7 +12,7 @@ export interface BlogPost {
     imageUrl?: string;
     readTime?: string;
   }
-  
+
 async function fetchPost(id: string) {
   const response = await fetch(`/api/sheets/${id}`);
   if (!response.ok) {
@@ -38,7 +38,7 @@ export default async function BlogPostPage({
       <div className="max-w-3xl mx-auto">
         <Link
           href="/blog"
-          className="btn btn-ghost btn-sm mb-8 inline-flex items-center gap-2"
+          className="btn btn-ghost btn-sm mb-6 inline-flex items-center gap-2"
         >
           <ArrowLeft className="w-4 h-4" />
           Back to Blog
