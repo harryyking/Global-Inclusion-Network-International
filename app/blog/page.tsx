@@ -39,7 +39,7 @@ export default async function BlogPage() {
   // Check if posts data was successfully fetched
   if (!posts) {
     return (
-      <div className="min-h-screen bg-base-200 p-8 text-center">
+      <div className="min-h-screen bg-base-100 p-8 text-center">
         <h1 className="text-4xl font-bold text-error mb-4">Error Loading Blog Posts</h1>
         <p className="text-base-content/80">Please try again later or contact support.</p>
       </div>
@@ -47,7 +47,7 @@ export default async function BlogPage() {
   }
 
   return (
-    <div className="min-h-screen bg-base-200 p-8">
+    <div className="min-h-screen bg-base-100 p-8">
       <div className="max-w-4xl mx-auto">
         <header className="text-center mb-12">
           <h1 className="text-4xl font-bold text-success mb-4">Our Blog</h1>
