@@ -29,7 +29,7 @@ const CoreValues = () => {
         {coreValues.map((value, index) => (
           <div
             key={index}
-            className="bg-white shadow-md rounded-2xl p-6 flex flex-col items-center hover:shadow-lg transition-shadow duration-300"
+            className="bg-white shadow-lg rounded-2xl p-6 flex flex-col items-center hover:shadow-lg transition-shadow duration-300"
           >
             <value.icon className="text-orange-500 w-12 h-12 mb-4" />
             <h3 className="text-lg font-semibold text-black">{value.name}</h3>
