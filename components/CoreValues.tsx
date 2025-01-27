@@ -21,7 +21,7 @@ const CoreValues = () => {
   ];
 
   return (
-    <div className="max-w-4xl mx-auto p-6 text-center">
+    <div className="mx-auto p-6 text-center">
       <h2 className="text-2xl font-bold mb-8 text-primary">Our Core Values</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {coreValues.map((value, index) => (
@@ -30,7 +30,7 @@ const CoreValues = () => {
             className="bg-white shadow-md rounded-2xl p-6 flex flex-col items-center hover:shadow-lg transition-shadow duration-300"
           >
             <value.icon className="text-orange-500 w-12 h-12 mb-4" />
-            <h3 className="text-lg font-semibold">{value.name}</h3>
+            <h3 className="text-lg font-semibold text-black">{value.name}</h3>
           </div>
         ))}
       </div>
