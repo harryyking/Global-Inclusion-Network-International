@@ -17,8 +17,8 @@ const auth = new google.auth.GoogleAuth({
 
 const sheets = google.sheets({ version: "v4", auth });
 
-const spreadsheetId = "your-spreadsheet-id"; // Replace with your spreadsheet ID
-const range = "Sheet1!A1:H"; // Adjust range based on your sheet
+const spreadsheetId = "d/1vBJ6IIypg5ffu2Iw7mugNvtHhq-lfXhDSTVKtFYa7Yo"; 
+const range = "Sheet1!A1:F"; // Adjust range based on your sheet
 
 export async function GET() {
   try {
