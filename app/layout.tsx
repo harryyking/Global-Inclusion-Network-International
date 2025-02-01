@@ -12,7 +12,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "www.globalinclusionnetwork.org",
-    images: "https://utfs.io/f/cQKwx0ZpHag13i1X9PcUTOh92ABgKFbk4ctY1ZyE7JMeXwL5"
+    images: [
+      {
+        url : 'https://utfs.io/f/cQKwx0ZpHag13i1X9PcUTOh92ABgKFbk4ctY1ZyE7JMeXwL5',
+        width: 500,
+        height: 500
+      }
+    ]
     
   },
   twitter: {
