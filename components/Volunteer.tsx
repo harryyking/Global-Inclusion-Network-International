@@ -20,8 +20,7 @@ const Volunteer = () => {
           Be a part of our mission to change and impact lives
         </h1>
         <Link
-          href="https://docs.google.com/forms/d/e/1FAIpQLSe-mSta2f397t5iKFULWo2QHn3YREVwTertBeAtnWZYtAeD1A/viewform" // Replace with your actual route
-          target="_blank"
+          href="/contact" // Replace with your actual route
           className="btn btn-secondary btn-md text-white"
         >
           Donate

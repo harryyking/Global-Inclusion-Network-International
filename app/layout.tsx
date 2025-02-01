@@ -14,6 +14,17 @@ export const metadata: Metadata = {
     url: "www.globalinclusionnetwork.org",
     images: "https://utfs.io/f/cQKwx0ZpHag13i1X9PcUTOh92ABgKFbk4ctY1ZyE7JMeXwL5"
     
+  },
+  twitter: {
+    card: "summary",
+    title: "GINI | Global Inclusion Network International",
+    description: "Empowering Every Child Regardless of Ability",
+    images: ["https://utfs.io/f/cQKwx0ZpHag13i1X9PcUTOh92ABgKFbk4ctY1ZyE7JMeXwL5", ]
+
+  },
+  icons: {
+    icon: "https://utfs.io/f/cQKwx0ZpHag13i1X9PcUTOh92ABgKFbk4ctY1ZyE7JMeXwL5",
+    apple: "https://utfs.io/f/cQKwx0ZpHag13i1X9PcUTOh92ABgKFbk4ctY1ZyE7JMeXwL5"
   }
 };
 
